@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+					   xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+					   x:Class="SampleLab.Pages.AudioRecorder"
+             xmlns:common="clr-namespace:SampleLab;assembly=SampleLab"
+             xmlns:b="clr-namespace:Xamarin.Behaviors;assembly=Xamarin.Behaviors"
+             BindingContext="{x:Static common:AppResources.ViewModelLocator}"
+             x:Name="AudioRecorderPage">
+  
+  <StackLayout BindingContext="{Binding AudioRecorderViewModel}" x:Name="AudioRecorderRoot">
+    <Button x:Name="ButtonStart" Text="Start Recording" Command="{Binding StartRecordingCommand}"/>
+    <Button x:Name="ButtonStop" Text="Stop Recording" Command="{Binding StopRecordingCommand}"/>
+    <Button Text="Play" Command="{Binding PlayAudioCommand}"/>
+    <Label Text="{Binding AudioPlayBackTime}" HorizontalOptions="Center"/>
+    <Slider Value="{Binding CurrentSeekerPosition,Mode=TwoWay}" x:Name="PlayerSlider">
+      <!--<b:Interaction.Behaviors>
+        <b:BehaviorCollection>          
+          <b:EventToCommand BindingContext="{b:RelativeContext AudioRecorderRoot}"
+							EventName="ValueChanged"											
+							Command="{Binding SeekerPositionChangedCommnad}" />
+        </b:BehaviorCollection>
+      </b:Interaction.Behaviors>-->
+    </Slider>
+  </StackLayout>    
+  
+</ContentPage>

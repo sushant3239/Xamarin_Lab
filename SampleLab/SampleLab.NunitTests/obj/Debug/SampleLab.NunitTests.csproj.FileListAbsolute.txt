@@ -1,0 +1,9 @@
+F:\Data\Xamarin\Forms\SampleLab\SampleLab\SampleLab.NunitTests\bin\Debug\SampleLab.NunitTests.dll
+F:\Data\Xamarin\Forms\SampleLab\SampleLab\SampleLab.NunitTests\bin\Debug\SampleLab.NunitTests.pdb
+F:\Data\Xamarin\Forms\SampleLab\SampleLab\SampleLab.NunitTests\bin\Debug\Xamarin.Forms.Core.dll
+F:\Data\Xamarin\Forms\SampleLab\SampleLab\SampleLab.NunitTests\bin\Debug\Xamarin.Forms.Xaml.dll
+F:\Data\Xamarin\Forms\SampleLab\SampleLab\SampleLab.NunitTests\bin\Debug\Xamarin.Forms.Core.xml
+F:\Data\Xamarin\Forms\SampleLab\SampleLab\SampleLab.NunitTests\bin\Debug\Xamarin.Forms.Xaml.xml
+F:\Data\Xamarin\Forms\SampleLab\SampleLab\SampleLab.NunitTests\obj\Debug\SampleLab.NunitTests.csprojResolveAssemblyReference.cache
+F:\Data\Xamarin\Forms\SampleLab\SampleLab\SampleLab.NunitTests\obj\Debug\SampleLab.NunitTests.dll
+F:\Data\Xamarin\Forms\SampleLab\SampleLab\SampleLab.NunitTests\obj\Debug\SampleLab.NunitTests.pdb

@@ -1,0 +1,2 @@
+F:\Data\Xamarin\Forms\SampleLab\SampleLab\SampleLab\SampleLab.iOS\obj\iPhone\Debug\
+F:\Data\Xamarin\Forms\SampleLab\SampleLab\SampleLab\SampleLab.iOS\obj\iPhone\Debug\SampleLab.iOS.csprojResolveAssemblyReference.cache

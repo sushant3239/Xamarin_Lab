@@ -1,0 +1,17 @@
+﻿<Properties>
+  <DisabledProjects>
+    <String>SampleLab/SampleLab.iOS/SampleLab.iOS.csproj</String>
+    <String>SampleLab.Droid.Tests/SampleLab.Droid.Tests.csproj</String>
+    <String>SampleLab.NunitTests/SampleLab.NunitTests.csproj</String>
+  </DisabledProjects>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="SampleLab/SampleLab.Android/Renderer/MySeekBarRenderer.cs">
+    <Files>
+      <File FileName="SampleLab/SampleLab.Android/Renderer/MySeekBarRenderer.cs" Line="14" Column="14" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
