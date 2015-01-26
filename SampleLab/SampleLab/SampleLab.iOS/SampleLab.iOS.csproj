@@ -99,6 +99,8 @@
     <Compile Include="Infrastructure\TinyIocContainer.cs" />
     <Compile Include="Main.cs" />
     <Compile Include="AppDelegate.cs" />
+    <Compile Include="Renderer\MySeekBarRenderer.cs" />
+    <Compile Include="TinyIoC.cs" />
     <None Include="Entitlements.plist" />
     <None Include="Info.plist" />
     <Compile Include="PhoneService\iOSAlertManager.cs" />
