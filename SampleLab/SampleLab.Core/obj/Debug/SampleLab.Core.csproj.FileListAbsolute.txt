@@ -16,3 +16,11 @@ F:\Data\Xamarin\Forms\SampleLab\SampleLab\SampleLab.Core\bin\Debug\Xamarin.Forms
 F:\Data\Xamarin\Forms\SampleLab\SampleLab\SampleLab.Core\obj\Debug\SampleLab.Core.dll
 F:\Data\Xamarin\Forms\SampleLab\SampleLab\SampleLab.Core\obj\Debug\SampleLab.Core.pdb
 F:\Data\Xamarin\Forms\SampleLab\SampleLab\SampleLab.Core\obj\Debug\SampleLab.Core.csprojResolveAssemblyReference.cache
+F:\Data\Xamarin\Forms\Git_Lab\Xamarin_Lab\SampleLab\SampleLab.Core\bin\Debug\SampleLab.Core.dll
+F:\Data\Xamarin\Forms\Git_Lab\Xamarin_Lab\SampleLab\SampleLab.Core\bin\Debug\SampleLab.Core.pdb
+F:\Data\Xamarin\Forms\Git_Lab\Xamarin_Lab\SampleLab\SampleLab.Core\bin\Debug\Xamarin.Forms.Core.dll
+F:\Data\Xamarin\Forms\Git_Lab\Xamarin_Lab\SampleLab\SampleLab.Core\bin\Debug\Xamarin.Forms.Xaml.dll
+F:\Data\Xamarin\Forms\Git_Lab\Xamarin_Lab\SampleLab\SampleLab.Core\bin\Debug\Xamarin.Forms.Core.xml
+F:\Data\Xamarin\Forms\Git_Lab\Xamarin_Lab\SampleLab\SampleLab.Core\bin\Debug\Xamarin.Forms.Xaml.xml
+F:\Data\Xamarin\Forms\Git_Lab\Xamarin_Lab\SampleLab\SampleLab.Core\obj\Debug\SampleLab.Core.dll
+F:\Data\Xamarin\Forms\Git_Lab\Xamarin_Lab\SampleLab\SampleLab.Core\obj\Debug\SampleLab.Core.pdb

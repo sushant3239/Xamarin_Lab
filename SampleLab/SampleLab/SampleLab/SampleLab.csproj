@@ -37,6 +37,10 @@
     <Compile Include="App.cs" />
     <Compile Include="AppResources.cs" />
     <Compile Include="CustomControls\MySeekBar.cs" />
+    <Compile Include="CustomControls\PopupLayout.cs" />
+    <Compile Include="CustomControls\TestControl.xaml.cs">
+      <DependentUpon>TestControl.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Pages\AudiRecorderView.xaml.cs">
       <DependentUpon>AudiRecorderView.xaml</DependentUpon>
     </Compile>
@@ -45,6 +49,9 @@
     </Compile>
     <Compile Include="Pages\NativeToForms.xaml.cs">
       <DependentUpon>NativeToForms.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\PopupPage.xaml.cs">
+      <DependentUpon>PopupPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="PhoneService\NavigationService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -83,6 +90,18 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Pages\NativeToForms.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Pages\PopupPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="CustomControls\TestControl.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>

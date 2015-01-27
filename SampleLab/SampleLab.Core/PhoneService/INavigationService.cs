@@ -10,5 +10,6 @@ namespace SampleLab.PhoneService
         Task NavigateToHomeAsync();
         Task NavigateToNativePage();
         Task GoBackAsync();
+        Task NavigateToPopupPage();
     }
 }

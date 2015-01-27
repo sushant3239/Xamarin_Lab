@@ -42,5 +42,10 @@ namespace SampleLab.PhoneService
         {
             return Navigation.PushAsync(new NativeToForms());
         }
+        
+        public Task NavigateToPopupPage()
+        {
+            return Navigation.PushAsync(new PopupPage());
+        }
     }
 }

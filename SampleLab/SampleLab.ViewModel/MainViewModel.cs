@@ -20,6 +20,7 @@ namespace SampleLab.ViewModel
         public ICommand ButtonCapturePressedCommand { get; private set; }
         public ICommand ButtonRecordPressedCommand { get; private set; }
         public ICommand FormsToNativePage { get; set; }
+        public ICommand NavigateToPopupPage { get; private set; }
 
         public ImageSource CapturedImage
         {
@@ -38,7 +39,7 @@ namespace SampleLab.ViewModel
             }
         }
 
-        
+
         public MainViewModel(IPhoneService phoneService, IDevice device)
         {
             _cameraLauncher = device.CameraLauncher;
@@ -48,7 +49,8 @@ namespace SampleLab.ViewModel
             ButtonCapturePressedCommand = new Command(ButtonPressed);
             ButtonRecordPressedCommand = new Command(NavigateToAudioRecorder);
             FormsToNativePage = new Command(NavigateToNative);
-        }       
+            NavigateToPopupPage = new Command(NavigateToPopup);
+        }      
 
         private async void ButtonPressed()
         {
@@ -65,6 +67,11 @@ namespace SampleLab.ViewModel
         private void NavigateToNative()
         {
             _navigationService.NavigateToNativePage();
+        }
+
+        private void NavigateToPopup()
+        {
+            _navigationService.NavigateToPopupPage();
         }
     }
 }

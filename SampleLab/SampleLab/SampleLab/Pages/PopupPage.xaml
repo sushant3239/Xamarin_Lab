@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="SampleLab.Pages.PopupPage"
+    xmlns:controls="clr-namespace:SampleLab.CustomControls;assembly=SampleLab">
+
+  <ContentPage.Content>
+    <controls:PopupLayout>
+      <controls:PopupLayout.Content>        
+          <Button Text="Show Popup" Clicked="OpenButtonClicked"/>
+      </controls:PopupLayout.Content>
+    </controls:PopupLayout>
+  </ContentPage.Content>
+  
+</ContentPage>
