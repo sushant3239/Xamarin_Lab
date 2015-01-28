@@ -3,6 +3,7 @@ using Ninject;
 using Ninject.Modules;
 using SampleLab.Device;
 using SampleLab.PhoneService;
+using SampleLab.ViewModel;
 using Xamarin.Forms;
 
 [assembly: Dependency(typeof(SampleLab.Infrastructure.NinjectTypeResolver))]
@@ -19,7 +20,7 @@ namespace SampleLab.Infrastructure
 
         public T Resolve<T>()
         {
-            return _kernel.Get<T>();
+            return _kernel.Get<T>();            
         }
 
         class Module : NinjectModule
@@ -33,6 +34,10 @@ namespace SampleLab.Infrastructure
                 Bind<IAudioRecorder>().To<DroidAudioRecorder>();
                 Bind<IMediaPlayer>().To<DroidMediaPlayer>();
                 Bind<INavigationService>().To<NavigationService>();
+
+                Bind<FliterViewModel>().To<FliterViewModel>().InSingletonScope();
+                Bind<PopupPageViewModel>().To<ViewModel.PopupPageViewModel>().InSingletonScope();
+
             }
         }
     }

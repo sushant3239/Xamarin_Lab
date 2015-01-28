@@ -44,6 +44,7 @@ F:\Data\Xamarin\Forms\Git_Lab\Xamarin_Lab\SampleLab\SampleLab\SampleLab\obj\Debu
 F:\Data\Xamarin\Forms\Git_Lab\Xamarin_Lab\SampleLab\SampleLab\SampleLab\obj\Debug\MainView.xaml.g.cs
 F:\Data\Xamarin\Forms\Git_Lab\Xamarin_Lab\SampleLab\SampleLab\SampleLab\obj\Debug\NativeToForms.xaml.g.cs
 F:\Data\Xamarin\Forms\Git_Lab\Xamarin_Lab\SampleLab\SampleLab\SampleLab\obj\Debug\PopupPage.xaml.g.cs
+F:\Data\Xamarin\Forms\Git_Lab\Xamarin_Lab\SampleLab\SampleLab\SampleLab\obj\Debug\FilterPopup.xaml.g.cs
+F:\Data\Xamarin\Forms\Git_Lab\Xamarin_Lab\SampleLab\SampleLab\SampleLab\obj\Debug\SelectableView.xaml.g.cs
 F:\Data\Xamarin\Forms\Git_Lab\Xamarin_Lab\SampleLab\SampleLab\SampleLab\obj\Debug\SampleLab.dll
 F:\Data\Xamarin\Forms\Git_Lab\Xamarin_Lab\SampleLab\SampleLab\SampleLab\obj\Debug\SampleLab.pdb
-F:\Data\Xamarin\Forms\Git_Lab\Xamarin_Lab\SampleLab\SampleLab\SampleLab\obj\Debug\TestControl.xaml.g.cs

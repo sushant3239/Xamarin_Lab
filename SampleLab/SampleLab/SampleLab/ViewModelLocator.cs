@@ -40,5 +40,31 @@ namespace SampleLab
                 return _audioRecorderViewModel;
             }
         }
+
+        private PopupPageViewModel _popupViewModel;
+        public PopupPageViewModel PopupPageViewModel
+        {
+            get
+            {
+                if (_popupViewModel == null)
+                {
+                    _popupViewModel = _typeResolver.Resolve<PopupPageViewModel>();
+                }
+                return _popupViewModel;
+            }
+        }
+
+        private FliterViewModel _filterViewModel;
+        public FliterViewModel FliterViewModel 
+        {
+            get
+            {
+                if (_filterViewModel == null)
+                {
+                    _filterViewModel = _typeResolver.Resolve<FliterViewModel>();
+                }
+                return _filterViewModel;
+            }
+        }
     }
 }

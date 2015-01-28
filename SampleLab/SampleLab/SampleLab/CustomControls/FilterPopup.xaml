@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Grid xmlns="http://xamarin.com/schemas/2014/forms"
+  xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+  x:Class="SampleLab.CustomControls.FilterPopup"
+  xmlns:common="clr-namespace:SampleLab;assembly=SampleLab"
+  xmlns:controls="clr-namespace:SampleLab.CustomControls;assembly=SampleLab">
+  <Grid BindingContext="{x:Static common:AppResources.ViewModelLocator}">
+    <Grid BackgroundColor="#FFFFFF" BindingContext="{Binding FliterViewModel}">
+      
+      <Grid.RowDefinitions>
+        <RowDefinition Height="70"/>
+        <RowDefinition Height="*"/>
+        <RowDefinition Height="*"/>
+        <RowDefinition Height="*"/>
+        <RowDefinition Height="*"/>
+        <RowDefinition Height="*"/>
+      </Grid.RowDefinitions>
+  
+      <Grid BackgroundColor="#F0F0F0">
+          <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+          </Grid.ColumnDefinitions>
+          <controls:TapableLabel Text="Clear All" Grid.Column="0" HorizontalOptions="Center" VerticalOptions="Center"/>
+          <controls:TapableLabel Text="Filters" Grid.Column="1" HorizontalOptions="Center" VerticalOptions="Center"/>
+          <controls:TapableLabel Text="Apply" Grid.Column="2" HorizontalOptions="Center" VerticalOptions="Center"/>
+        </Grid>
+
+      <StackLayout Grid.Row="1" Padding="20,0,0,5">
+        <Label Text="Due Date"/>    
+        <controls:BindableRadioGroup x:Name="GroupDueDate" 
+            Orientation="Horizontal" SelectedIndex="{Binding DueDateGroupSelectedIndex,Mode=TwoWay}"/>    
+      </StackLayout>
+
+      <StackLayout Grid.Row="2" Padding="20,0,0,5">
+        <Label Text="Review Note"/>    
+        <controls:BindableRadioGroup x:Name="GroupReviewNote" 
+              Orientation="Horizontal" SelectedIndex="{Binding ReviewNoteSelectedIndex,Mode=TwoWay}"/>   
+      </StackLayout>
+
+      <StackLayout Grid.Row="3" Padding="20,0,0,5">
+        <Label Text="Audit Phase"/>
+        <controls:BindableRadioGroup
+          x:Name="GroupAuditPhase" Orientation="Horizontal"
+          SelectedIndex="{Binding AuditPhaseSelectedIndex,Mode=TwoWay}"/>
+      </StackLayout>
+
+      <Label Text="Signed-off By                    >" Grid.Row="4"/>
+      
+      <Label Text="Engagement                    >" Grid.Row="5"/>
+      
+    </Grid>
+  </Grid>
+  
+  </Grid>

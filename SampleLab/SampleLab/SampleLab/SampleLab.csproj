@@ -36,11 +36,16 @@
   <ItemGroup>
     <Compile Include="App.cs" />
     <Compile Include="AppResources.cs" />
-    <Compile Include="CustomControls\MySeekBar.cs" />
-    <Compile Include="CustomControls\PopupLayout.cs" />
-    <Compile Include="CustomControls\TestControl.xaml.cs">
-      <DependentUpon>TestControl.xaml</DependentUpon>
+    <Compile Include="CustomControls\BindableRadioGroup.cs" />
+    <Compile Include="CustomControls\EventArgs.cs" />
+    <Compile Include="CustomControls\FilterPopup.xaml.cs">
+      <DependentUpon>FilterPopup.xaml</DependentUpon>
     </Compile>
+    <Compile Include="CustomControls\MySeekBar.cs" />
+    <Compile Include="CustomControls\SelectableView.xaml.cs">
+      <DependentUpon>SelectableView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="CustomControls\TapableLabel.cs" />
     <Compile Include="Pages\AudiRecorderView.xaml.cs">
       <DependentUpon>AudiRecorderView.xaml</DependentUpon>
     </Compile>
@@ -101,7 +106,13 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="CustomControls\TestControl.xaml">
+    <EmbeddedResource Include="CustomControls\FilterPopup.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="CustomControls\SelectableView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>

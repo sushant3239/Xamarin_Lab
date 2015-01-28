@@ -1,15 +1,29 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
-    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    x:Class="SampleLab.Pages.PopupPage"
-    xmlns:controls="clr-namespace:SampleLab.CustomControls;assembly=SampleLab">
+  xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+  x:Class="SampleLab.Pages.PopupPage"
+  xmlns:controls="clr-namespace:SampleLab.CustomControls;assembly=SampleLab"
+  xmlns:common="clr-namespace:SampleLab;assembly=SampleLab"
+  BindingContext="{x:Static common:AppResources.ViewModelLocator}">
 
-  <ContentPage.Content>
-    <controls:PopupLayout>
-      <controls:PopupLayout.Content>        
-          <Button Text="Show Popup" Clicked="OpenButtonClicked"/>
-      </controls:PopupLayout.Content>
-    </controls:PopupLayout>
-  </ContentPage.Content>
-  
+  <Grid BindingContext="{Binding PopupPageViewModel}">
+    <Grid.RowDefinitions>
+      <RowDefinition Height="Auto"/>
+      <RowDefinition Height="*"/>
+      <RowDefinition Height="Auto"/>
+    </Grid.RowDefinitions>    
+    <StackLayout Grid.Row="1">
+      <Label Text="Hi"/>
+      <Label Text="Hi"/>
+      <Label Text="Hi"/>
+      <Label Text="Hi"/>
+      <Label Text="Hi"/>
+      <Label Text="Hi"/>
+      <Label Text="Hi"/>
+      <Label Text="Hi"/>
+    </StackLayout>
+    <controls:FilterPopup Grid.Row="1" IsVisible="{Binding ShowPopup}"/>
+    <Button Text="{Binding PopupButtonText}" Command="{Binding PopupButtonCommand}"/>
+  </Grid>
+ 
 </ContentPage>

@@ -9,7 +9,7 @@ namespace SampleLab.PhoneService
         Task NavigateToAudioRecorderAsync();
         Task NavigateToHomeAsync();
         Task NavigateToNativePage();
-        Task GoBackAsync();
         Task NavigateToPopupPage();
+        Task GoBackAsync();
     }
 }
