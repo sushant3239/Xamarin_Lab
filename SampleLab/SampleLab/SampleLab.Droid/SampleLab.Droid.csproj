@@ -83,6 +83,7 @@
     <Compile Include="PhoneService\AlertManager.cs" />
     <Compile Include="PhoneService\DroidMediaPlayer.cs" />
     <Compile Include="PhoneService\DroidPhoneService.cs" />
+    <Compile Include="Renderer\MultiSelectListRenderer.cs" />
     <Compile Include="Renderer\MySeekBarRenderer.cs" />
     <Compile Include="Renderer\NativeToFormsRenderer.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />

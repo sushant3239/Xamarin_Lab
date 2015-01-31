@@ -41,6 +41,8 @@
     <Compile Include="Device\IDevice.cs" />
     <Compile Include="Enum\MessageBoxButton .cs" />
     <Compile Include="Helper\ClassHelper.cs" />
+    <Compile Include="Helper\EventArgs.cs" />
+    <Compile Include="Helper\EventExtensions.cs" />
     <Compile Include="Helper\TaskUtils.cs" />
     <Compile Include="Infrastructure\ITypeResolver.cs" />
     <Compile Include="Infrastructure\StorageManager\ICacheStorageManager.cs" />
@@ -64,6 +66,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SampleLab.Model\SampleLab.Model.csproj">
+      <Project>{998eec38-d6d4-4de0-9a1a-ac58874a36d7}</Project>
+      <Name>SampleLab.Model</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
   <Import Project="..\packages\Xamarin.Forms.1.3.1.6296\build\portable-win+net45+wp80+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.targets" Condition="Exists('..\packages\Xamarin.Forms.1.3.1.6296\build\portable-win+net45+wp80+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.targets')" />

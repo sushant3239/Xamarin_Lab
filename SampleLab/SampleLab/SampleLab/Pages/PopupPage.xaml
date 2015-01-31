@@ -10,20 +10,9 @@
     <Grid.RowDefinitions>
       <RowDefinition Height="Auto"/>
       <RowDefinition Height="*"/>
-      <RowDefinition Height="Auto"/>
-    </Grid.RowDefinitions>    
-    <StackLayout Grid.Row="1">
-      <Label Text="Hi"/>
-      <Label Text="Hi"/>
-      <Label Text="Hi"/>
-      <Label Text="Hi"/>
-      <Label Text="Hi"/>
-      <Label Text="Hi"/>
-      <Label Text="Hi"/>
-      <Label Text="Hi"/>
-    </StackLayout>
-    <controls:FilterPopup Grid.Row="1" IsVisible="{Binding ShowPopup}"/>
+    </Grid.RowDefinitions>
     <Button Text="{Binding PopupButtonText}" Command="{Binding PopupButtonCommand}"/>
+    <controls:FilterPopup Grid.Row="1" IsVisible="{Binding ShowPopup}" VerticalOptions="End"/>    
   </Grid>
  
 </ContentPage>

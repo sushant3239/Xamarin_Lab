@@ -68,5 +68,13 @@ namespace SampleLab.PhoneService
 			al.AddButton ("OK");
 			al.Show ();
 		}
+
+
+        public System.Threading.Tasks.Task<bool> PlayAsync(string filePath)
+        {
+            throw new NotImplementedException();
+        }
+
+        public event EventHandler OnMediaStopped;
     }
 }

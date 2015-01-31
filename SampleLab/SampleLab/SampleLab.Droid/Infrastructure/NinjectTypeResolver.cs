@@ -18,7 +18,7 @@ namespace SampleLab.Infrastructure
             
         }
 
-        public T Resolve<T>()
+        public T Resolve<T>() where T :class
         {
             return _kernel.Get<T>();            
         }
@@ -28,16 +28,14 @@ namespace SampleLab.Infrastructure
             public override void Load()
             {
                 Bind<ICameraLauncher>().To<DroidCamera>().InSingletonScope();
-                Bind<IAlertManager>().To<AlertManager>();
-                Bind<IPhoneService>().To<DroidPhoneService>();
-                Bind<IDevice>().To<DroidDevice>();
-                Bind<IAudioRecorder>().To<DroidAudioRecorder>();
-                Bind<IMediaPlayer>().To<DroidMediaPlayer>();
-                Bind<INavigationService>().To<NavigationService>();
-
+                Bind<IAlertManager>().To<AlertManager>().InSingletonScope();
+                Bind<IPhoneService>().To<DroidPhoneService>().InSingletonScope();
+                Bind<IDevice>().To<DroidDevice>().InSingletonScope();
+                Bind<IAudioRecorder>().To<DroidAudioRecorder>().InSingletonScope();
+                Bind<IMediaPlayer>().To<DroidMediaPlayer>().InSingletonScope();
+                Bind<INavigationService>().To<NavigationService>().InSingletonScope();
+                Bind<FilterByEngagementsViewModel>().To<FilterByEngagementsViewModel>().InSingletonScope();
                 Bind<FliterViewModel>().To<FliterViewModel>().InSingletonScope();
-                Bind<PopupPageViewModel>().To<ViewModel.PopupPageViewModel>().InSingletonScope();
-
             }
         }
     }

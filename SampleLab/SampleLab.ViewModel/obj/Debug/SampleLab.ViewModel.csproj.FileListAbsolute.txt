@@ -31,3 +31,16 @@ F:\Data\Xamarin\Forms\Git_Lab\Xamarin_Lab\SampleLab\SampleLab.ViewModel\bin\Debu
 F:\Data\Xamarin\Forms\Git_Lab\Xamarin_Lab\SampleLab\SampleLab.ViewModel\obj\Debug\SampleLab.ViewModel.csprojResolveAssemblyReference.cache
 F:\Data\Xamarin\Forms\Git_Lab\Xamarin_Lab\SampleLab\SampleLab.ViewModel\obj\Debug\SampleLab.ViewModel.dll
 F:\Data\Xamarin\Forms\Git_Lab\Xamarin_Lab\SampleLab\SampleLab.ViewModel\obj\Debug\SampleLab.ViewModel.pdb
+D:\Xamarin\Forms\Git_lab\Xamarin_Lab-master\SampleLab\SampleLab.ViewModel\bin\Debug\SampleLab.ViewModel.dll
+D:\Xamarin\Forms\Git_lab\Xamarin_Lab-master\SampleLab\SampleLab.ViewModel\bin\Debug\SampleLab.ViewModel.pdb
+D:\Xamarin\Forms\Git_lab\Xamarin_Lab-master\SampleLab\SampleLab.ViewModel\bin\Debug\SampleLab.Core.dll
+D:\Xamarin\Forms\Git_lab\Xamarin_Lab-master\SampleLab\SampleLab.ViewModel\bin\Debug\Xamarin.Forms.Core.dll
+D:\Xamarin\Forms\Git_lab\Xamarin_Lab-master\SampleLab\SampleLab.ViewModel\bin\Debug\Xamarin.Forms.Xaml.dll
+D:\Xamarin\Forms\Git_lab\Xamarin_Lab-master\SampleLab\SampleLab.ViewModel\bin\Debug\SampleLab.Core.pdb
+D:\Xamarin\Forms\Git_lab\Xamarin_Lab-master\SampleLab\SampleLab.ViewModel\bin\Debug\Xamarin.Forms.Core.xml
+D:\Xamarin\Forms\Git_lab\Xamarin_Lab-master\SampleLab\SampleLab.ViewModel\bin\Debug\Xamarin.Forms.Xaml.xml
+D:\Xamarin\Forms\Git_lab\Xamarin_Lab-master\SampleLab\SampleLab.ViewModel\obj\Debug\SampleLab.ViewModel.csprojResolveAssemblyReference.cache
+D:\Xamarin\Forms\Git_lab\Xamarin_Lab-master\SampleLab\SampleLab.ViewModel\obj\Debug\SampleLab.ViewModel.dll
+D:\Xamarin\Forms\Git_lab\Xamarin_Lab-master\SampleLab\SampleLab.ViewModel\obj\Debug\SampleLab.ViewModel.pdb
+D:\Xamarin\Forms\Git_lab\Xamarin_Lab-master\SampleLab\SampleLab.ViewModel\bin\Debug\SampleLab.Model.dll
+D:\Xamarin\Forms\Git_lab\Xamarin_Lab-master\SampleLab\SampleLab.ViewModel\bin\Debug\SampleLab.Model.pdb

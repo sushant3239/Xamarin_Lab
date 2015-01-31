@@ -14,8 +14,8 @@ namespace SampleLab.CustomControls
             PropertyChanged += SelectableViewPropertyChanged;
 
             ViewLabel.BindingContext = this;
-            ViewLabel.SetBinding<SelectableView>(Label.TextProperty, x => x.Text);
-        }        
+            ViewLabel.SetBinding<SelectableView>(Label.TextProperty, x => x.Text);            
+        }             
 
         public static readonly BindableProperty CheckedProperty =
                    BindableProperty.Create<SelectableView, bool>(

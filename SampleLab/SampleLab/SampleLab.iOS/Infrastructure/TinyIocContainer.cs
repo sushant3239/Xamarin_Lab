@@ -19,10 +19,7 @@ namespace SampleLab.Infrastructure
 
 		public T Resolve<T> () where T : class
 		{
-			T obj = TinyIoC.TinyIoCContainer.Current.Resolve<T> ();
-			TinyIoC.TinyIoCContainer.Current.BuildUp (obj);
-			return obj;
-			//return null;
+            return TinyIoC.TinyIoCContainer.Current.Resolve<T>();
 		}
 
 

@@ -36,8 +36,10 @@
   <ItemGroup>
     <Compile Include="AudioPlayerViewModel.cs" />
     <Compile Include="AudioRecorderViewModel.cs" />
+    <Compile Include="FilterByEngagementsViewModel.cs" />
     <Compile Include="FliterViewModel.cs" />
     <Compile Include="MainViewModel.cs" />
+    <Compile Include="NavigationAwareViewModel.cs" />
     <Compile Include="PopupPageViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ViewModelBase.cs" />
@@ -57,6 +59,10 @@
     <ProjectReference Include="..\SampleLab.Core\SampleLab.Core.csproj">
       <Project>{67f9d3a8-f71e-4428-913f-c37ae82cdb24}</Project>
       <Name>SampleLab.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SampleLab.Model\SampleLab.Model.csproj">
+      <Project>{998eec38-d6d4-4de0-9a1a-ac58874a36d7}</Project>
+      <Name>SampleLab.Model</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />

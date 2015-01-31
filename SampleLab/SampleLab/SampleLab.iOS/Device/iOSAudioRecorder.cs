@@ -90,7 +90,7 @@ namespace SampleLab.Device
 			NSObject[] values = new NSObject[]
 			{    
 				NSNumber.FromFloat(44100.0f),
-				NSNumber.FromInt32((int)MonoTouch.AudioToolbox.AudioFormatType.MPEG4AAC),
+				NSNumber.FromInt32((int)AudioToolbox.AudioFormatType.MPEG4AAC),
 				NSNumber.FromInt32(1),
 				NSNumber.FromInt32((int)AVAudioQuality.High)
 			};
@@ -106,8 +106,8 @@ namespace SampleLab.Device
 			settings = NSDictionary.FromObjectsAndKeys (values, keys);
 
 			//Set recorder parameters
-			NSError error;
-			recorder = AVAudioRecorder.ToUrl(this.audioFilePath, settings, out error);
+			NSError error = null;
+			//recorder = AVAudioRecorder.(this.audioFilePath, settings, out error);
 			if ((recorder == null) || (error != null)) {
 				Console.WriteLine (error);
 				ShowMessage("No Recorded");

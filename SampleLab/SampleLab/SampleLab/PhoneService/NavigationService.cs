@@ -10,6 +10,7 @@ namespace SampleLab.PhoneService
     public class NavigationService : INavigationService
     {
         private INavigation _navigation;
+        
         private INavigation Navigation
         {
             get
@@ -20,6 +21,18 @@ namespace SampleLab.PhoneService
                 }
                 return _navigation;
             }
+        }
+
+        public object NavigationParameters
+        {
+            get;
+            private set;
+        }
+
+        public object BackNavigationParameters
+        {
+            get;
+            set;
         }
 
         public Task NavigateToAudioRecorderAsync()
@@ -35,18 +48,22 @@ namespace SampleLab.PhoneService
         public Task GoBackAsync()
         {
             return Navigation.PopAsync();
-        }
-
+        }       
 
         public Task NavigateToNativePage()
         {
             return Navigation.PushAsync(new NativeToForms());
         }
 
-
         public Task NavigateToPopupPage()
         {
             return Navigation.PushAsync(new PopupPage());
         }
+
+        public Task NavigateToFilterByEngagementsPage(object navigationParmas)
+        {
+            NavigationParameters = navigationParmas;
+            return Navigation.PushAsync(new FilterByEngagements());
+        }      
     }
 }

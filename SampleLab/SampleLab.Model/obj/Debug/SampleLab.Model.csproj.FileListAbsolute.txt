@@ -1,0 +1,8 @@
+D:\Xamarin\Forms\Git_lab\Xamarin_Lab-master\SampleLab\SampleLab.Model\bin\Debug\SampleLab.Model.dll
+D:\Xamarin\Forms\Git_lab\Xamarin_Lab-master\SampleLab\SampleLab.Model\bin\Debug\SampleLab.Model.pdb
+D:\Xamarin\Forms\Git_lab\Xamarin_Lab-master\SampleLab\SampleLab.Model\bin\Debug\Xamarin.Forms.Core.dll
+D:\Xamarin\Forms\Git_lab\Xamarin_Lab-master\SampleLab\SampleLab.Model\bin\Debug\Xamarin.Forms.Xaml.dll
+D:\Xamarin\Forms\Git_lab\Xamarin_Lab-master\SampleLab\SampleLab.Model\bin\Debug\Xamarin.Forms.Core.xml
+D:\Xamarin\Forms\Git_lab\Xamarin_Lab-master\SampleLab\SampleLab.Model\bin\Debug\Xamarin.Forms.Xaml.xml
+D:\Xamarin\Forms\Git_lab\Xamarin_Lab-master\SampleLab\SampleLab.Model\obj\Debug\SampleLab.Model.dll
+D:\Xamarin\Forms\Git_lab\Xamarin_Lab-master\SampleLab\SampleLab.Model\obj\Debug\SampleLab.Model.pdb

@@ -9,6 +9,6 @@
     <Button Text="Record Audio" Command="{Binding ButtonRecordPressedCommand}"/>
     <!--<Image Source="{Binding CapturedImage}"/>-->
     <Button Text="NavigateToNative" Command="{Binding FormsToNativePage}"/>
-    <Button Text="PopupPage" Command="{Binding NavigateToPopupPage}"/>
+    <Button Text="PopupPage" Command="{Binding NavigateToPopupPage}"/>    
   </StackLayout>
 </ContentPage>

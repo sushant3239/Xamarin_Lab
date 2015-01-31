@@ -1,4 +1,5 @@
 ﻿
+using SampleLab.PhoneService;
 using System.Windows.Input;
 using Xamarin.Forms;
 namespace SampleLab.ViewModel
@@ -6,12 +7,10 @@ namespace SampleLab.ViewModel
     public class PopupPageViewModel : ViewModelBase
     {
         private bool _showPopup = false;
-        private string _popupButtonText = "Show Popup";
-        private FliterViewModel _filterViewModel;
+        private string _popupButtonText = "Show Popup";       
 
-        public PopupPageViewModel(FliterViewModel filterViewModel)
+        public PopupPageViewModel()
         {
-            _filterViewModel = filterViewModel;
             PopupButtonCommand = new Command(ShowHidePopup);
         }       
 

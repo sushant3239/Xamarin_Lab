@@ -33,7 +33,7 @@ namespace SampleLab.Infrastructure
 			}
 			else if (t.FullName.Contains("CameraViewModel"))
 			{
-				viewModel = new CameraViewModel (new iOSPhoneService(new iOSAlertManager(),DependencyService.Get<INavigationService>(), new iOSMediaPlayer()),new iOSDevice(new iOsCamera(),new iOSAudioRecorder()));
+				//viewModel = new CameraViewModel (new iOSPhoneService(new iOSAlertManager(),DependencyService.Get<INavigationService>(), new iOSMediaPlayer()),new iOSDevice(new iOsCamera(),new iOSAudioRecorder()));
 			} 
 			return viewModel;
 

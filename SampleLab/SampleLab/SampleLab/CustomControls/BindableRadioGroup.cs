@@ -6,13 +6,13 @@ using System.Collections.Generic;
 using Xamarin.Forms;
 namespace SampleLab.CustomControls
 {
-    public class BindableRadioGroup : StackLayout
+    public class BindableRadioGroup : Grid
     {
-        public List<SelectableView> rads;
+        //public List<SelectableView> rads;
 
         public BindableRadioGroup()
         {
-            rads = new List<SelectableView>();
+            //rads = new List<SelectableView>();
         }
 
         public static BindableProperty ItemsSourceProperty =
@@ -20,7 +20,7 @@ namespace SampleLab.CustomControls
 
 
         public static BindableProperty SelectedIndexProperty =
-            BindableProperty.Create<BindableRadioGroup, int>(o => o.SelectedIndex, default(int), BindingMode.TwoWay);
+            BindableProperty.Create<BindableRadioGroup, int>(o => o.SelectedIndex, -1, BindingMode.OneWayToSource);
 
         public IEnumerable ItemsSource
         {
@@ -41,7 +41,7 @@ namespace SampleLab.CustomControls
         {
             var radButtons = bindable as BindableRadioGroup;
 
-            radButtons.rads.Clear();
+            //radButtons.rads.Clear();
             radButtons.Children.Clear();
             if (newvalue != null)
             {
@@ -55,8 +55,9 @@ namespace SampleLab.CustomControls
 
                     rad.CheckedChanged += radButtons.OnCheckedChanged;
 
-                    radButtons.rads.Add(rad);
-
+                    //radButtons.rads.Add(rad);
+                    radButtons.ColumnDefinitions.Add(new ColumnDefinition ());
+                    rad.SetValue(Grid.ColumnProperty, radIndex);
                     radButtons.Children.Add(rad);
                     radIndex++;
                 }
@@ -67,44 +68,48 @@ namespace SampleLab.CustomControls
         {
             var selectedRad = sender as SelectableView;
 
-            foreach (var rad in rads)
+            foreach (View view in Children)
             {
-                if (!selectedRad.ViewId.Equals(rad.ViewId))
+                var rad = view as SelectableView;
+                if (rad != null)
                 {
-                    rad.Checked = false;
-                }
-                else
-                {
-                    rad.Checked = !rad.Checked;
-                    if (rad.Checked)
+                    if (!selectedRad.ViewId.Equals(rad.ViewId))
                     {
-                        SelectedIndex = rad.ViewId;
-                        if (CheckedChanged != null)
-                            CheckedChanged.Invoke(sender, rad.ViewId);
+                        rad.Checked = false;
+                    }
+                    else
+                    {
+                        rad.Checked = !rad.Checked;
+                        if (rad.Checked)
+                        {
+                            SelectedIndex = rad.ViewId;
+                            if (CheckedChanged != null)
+                                CheckedChanged.Invoke(sender, rad.ViewId);
+                        }
+
                     }
 
+                    ChangeColorByState(rad);
                 }
-
-                ChangeColorByState(rad);
             }
 
         }
 
         private static void OnSelectedIndexChanged(BindableObject bindable, int oldvalue, int newvalue)
         {
-            if (newvalue == -1) return;
+            //if (newvalue == -1) return;
 
-            var bindableRadioGroup = bindable as BindableRadioGroup;
+            //var bindableRadioGroup = bindable as BindableRadioGroup;
 
 
-            foreach (var rad in bindableRadioGroup.rads)
-            {
-                if (rad.ViewId == bindableRadioGroup.SelectedIndex)
-                {
-                    rad.Checked = true;
-                }
+            //foreach (var rad in bindableRadioGroup.rads)
+            //{
+            //    if (rad.ViewId == bindableRadioGroup.SelectedIndex)
+            //    {
+            //        rad.Checked = true;
+            //    }
 
-            }
+            //}
         }
 
         private void ChangeColorByState(SelectableView view)

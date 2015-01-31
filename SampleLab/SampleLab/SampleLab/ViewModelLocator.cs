@@ -66,5 +66,19 @@ namespace SampleLab
                 return _filterViewModel;
             }
         }
+
+        private FilterByEngagementsViewModel _filterByEngagementsViewModel;
+        public FilterByEngagementsViewModel FilterByEngagementsViewModel
+        {
+            get 
+            { 
+                if(_filterByEngagementsViewModel == null)
+                {
+                    _filterByEngagementsViewModel = _typeResolver.Resolve<FilterByEngagementsViewModel>();
+                }
+                return _filterByEngagementsViewModel;
+            }            
+        }
+
     }
 }

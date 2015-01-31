@@ -1,4 +1,5 @@
 ﻿
+using System.Collections.Generic;
 using Xamarin.Forms;
 
 namespace SampleLab.Pages
@@ -7,7 +8,7 @@ namespace SampleLab.Pages
     {
         public PopupPage()
         {
-            InitializeComponent();                 
+            InitializeComponent();
         }        
     }
 }

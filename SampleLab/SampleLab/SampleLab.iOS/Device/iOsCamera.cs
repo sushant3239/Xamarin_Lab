@@ -181,6 +181,11 @@ namespace SampleLab.Device
 		}
 		#endregion
 
-	}
+
+        Task<byte[]> ICameraLauncher.StartCapture(string fileNmae, string folderName)
+        {
+            throw new NotImplementedException();
+        }
+    }
 }
 

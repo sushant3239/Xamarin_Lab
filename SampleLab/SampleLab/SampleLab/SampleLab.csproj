@@ -41,6 +41,7 @@
     <Compile Include="CustomControls\FilterPopup.xaml.cs">
       <DependentUpon>FilterPopup.xaml</DependentUpon>
     </Compile>
+    <Compile Include="CustomControls\MultiSelectList.cs" />
     <Compile Include="CustomControls\MySeekBar.cs" />
     <Compile Include="CustomControls\SelectableView.xaml.cs">
       <DependentUpon>SelectableView.xaml</DependentUpon>
@@ -48,6 +49,9 @@
     <Compile Include="CustomControls\TapableLabel.cs" />
     <Compile Include="Pages\AudiRecorderView.xaml.cs">
       <DependentUpon>AudiRecorderView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\FilterByEngagements.xaml.cs">
+      <DependentUpon>FilterByEngagements.xaml</DependentUpon>
     </Compile>
     <Compile Include="Pages\MainView.xaml.cs">
       <DependentUpon>MainView.xaml</DependentUpon>
@@ -88,6 +92,10 @@
       <Project>{67f9d3a8-f71e-4428-913f-c37ae82cdb24}</Project>
       <Name>SampleLab.Core</Name>
     </ProjectReference>
+    <ProjectReference Include="..\..\SampleLab.Model\SampleLab.Model.csproj">
+      <Project>{998eec38-d6d4-4de0-9a1a-ac58874a36d7}</Project>
+      <Name>SampleLab.Model</Name>
+    </ProjectReference>
     <ProjectReference Include="..\..\SampleLab.ViewModel\SampleLab.ViewModel.csproj">
       <Project>{ff8bbd06-bac9-450c-98dd-04dd3888f1bc}</Project>
       <Name>SampleLab.ViewModel</Name>
@@ -113,6 +121,12 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="CustomControls\SelectableView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Pages\FilterByEngagements.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>

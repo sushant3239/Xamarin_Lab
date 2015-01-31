@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="SampleLab.Pages.FilterByEngagements"
+    xmlns:common="clr-namespace:SampleLab;assembly=SampleLab"        
+    xmlns:controls="clr-namespace:SampleLab.CustomControls;assembly=SampleLab"
+    BindingContext="{x:Static common:AppResources.ViewModelLocator}">
+  
+  <StackLayout BindingContext="{Binding FilterByEngagementsViewModel}" x:Name="FilterByEngagementRoot">
+    <controls:MultiSelectList ListItems="{Binding ListItems}" SelectedListItems="{Binding SelectedListItems,Mode=TwoWay}"/>
+    <Button Command="{Binding DoneCommand}" Text="Done"/>
+  </StackLayout>
+
+</ContentPage>

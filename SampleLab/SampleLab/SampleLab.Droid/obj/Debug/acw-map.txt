@@ -1,5 +1,6 @@
 SampleLab.Device.CameraActivity;samplelab.device.CameraActivity
 SampleLab.Droid.MainActivity;samplelab.droid.MainActivity
+SampleLab.Droid.Renderer.MultiSelectListRenderer;samplelab.droid.renderer.MultiSelectListRenderer
 SampleLab.Droid.Renderer.MySeekBarRenderer;samplelab.droid.renderer.MySeekBarRenderer
 SampleLab.Droid.Renderer.NativeToFormsRenderer;samplelab.droid.renderer.NativeToFormsRenderer
 SampleLab.Droid.SecondActivity;samplelab.droid.SecondActivity

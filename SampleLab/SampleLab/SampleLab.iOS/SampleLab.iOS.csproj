@@ -95,7 +95,6 @@
     </Compile>
     <Compile Include="Device\iOsCamera.cs" />
     <Compile Include="Device\iOSDevice.cs" />
-    <Compile Include="Infrastructure\iOSNinjectTypeResolver.cs" />
     <Compile Include="Infrastructure\TinyIocContainer.cs" />
     <Compile Include="Main.cs" />
     <Compile Include="AppDelegate.cs" />
