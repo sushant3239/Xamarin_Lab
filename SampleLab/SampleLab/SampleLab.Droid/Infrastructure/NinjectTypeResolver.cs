@@ -2,11 +2,12 @@
 using Ninject;
 using Ninject.Modules;
 using SampleLab.Device;
+using SampleLab.Infrastructure;
 using SampleLab.PhoneService;
 using SampleLab.ViewModel;
 using Xamarin.Forms;
 
-[assembly: Dependency(typeof(SampleLab.Infrastructure.NinjectTypeResolver))]
+//[assembly: Dependency(typeof(SampleLab.Infrastructure.NinjectTypeResolver))]
 namespace SampleLab.Infrastructure
 {
     public class NinjectTypeResolver : ITypeResolver

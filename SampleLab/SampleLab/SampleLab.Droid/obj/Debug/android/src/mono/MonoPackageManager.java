@@ -69,6 +69,8 @@ class MonoPackageManager_Resources {
 	public static final String[] Assemblies = new String[]{
 		"SampleLab.Droid.dll",
 		"FormsViewGroup.dll",
+		"Microsoft.Practices.ServiceLocation.dll",
+		"Microsoft.Practices.Unity.dll",
 		"Ninject.dll",
 		"SampleLab.Core.dll",
 		"SampleLab.dll",
@@ -130,5 +132,5 @@ class MonoPackageManager_Resources {
 	};
 	public static final String[] Dependencies = new String[]{
 	};
-	public static final String ApiPackageName = "Mono.Android.Platform.ApiLevel_20";
+	public static final String ApiPackageName = "Mono.Android.Platform.ApiLevel_19";
 }

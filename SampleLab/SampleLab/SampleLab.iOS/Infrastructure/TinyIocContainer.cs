@@ -22,11 +22,6 @@ namespace SampleLab.Infrastructure
             return TinyIoC.TinyIoCContainer.Current.Resolve<T>();
 		}
 
-
-		public object Get<T> () where T : class
-		{
-			throw new NotImplementedException ();
-		}
 		#endregion
 	}
 }
