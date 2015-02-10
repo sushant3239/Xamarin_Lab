@@ -46,3 +46,16 @@ F:\Data\Xamarin\Forms\Git_Lab\Xamarin_Lab\SampleLab\SampleLab.ViewModel\bin\Debu
 F:\Data\Xamarin\Forms\Git_Lab\Xamarin_Lab\SampleLab\SampleLab.ViewModel\obj\Debug\SampleLab.ViewModel.csprojResolveAssemblyReference.cache
 F:\Data\Xamarin\Forms\Git_Lab\Xamarin_Lab\SampleLab\SampleLab.ViewModel\obj\Debug\SampleLab.ViewModel.dll
 F:\Data\Xamarin\Forms\Git_Lab\Xamarin_Lab\SampleLab\SampleLab.ViewModel\obj\Debug\SampleLab.ViewModel.pdb
+C:\Users\patilsu5\Downloads\Xamarin_Lab-master\Xamarin_Lab-master\SampleLab\SampleLab.ViewModel\bin\Debug\SampleLab.ViewModel.dll
+C:\Users\patilsu5\Downloads\Xamarin_Lab-master\Xamarin_Lab-master\SampleLab\SampleLab.ViewModel\bin\Debug\SampleLab.ViewModel.pdb
+C:\Users\patilsu5\Downloads\Xamarin_Lab-master\Xamarin_Lab-master\SampleLab\SampleLab.ViewModel\bin\Debug\SampleLab.Core.dll
+C:\Users\patilsu5\Downloads\Xamarin_Lab-master\Xamarin_Lab-master\SampleLab\SampleLab.ViewModel\bin\Debug\SampleLab.Model.dll
+C:\Users\patilsu5\Downloads\Xamarin_Lab-master\Xamarin_Lab-master\SampleLab\SampleLab.ViewModel\bin\Debug\Xamarin.Forms.Core.dll
+C:\Users\patilsu5\Downloads\Xamarin_Lab-master\Xamarin_Lab-master\SampleLab\SampleLab.ViewModel\bin\Debug\Xamarin.Forms.Xaml.dll
+C:\Users\patilsu5\Downloads\Xamarin_Lab-master\Xamarin_Lab-master\SampleLab\SampleLab.ViewModel\bin\Debug\SampleLab.Core.pdb
+C:\Users\patilsu5\Downloads\Xamarin_Lab-master\Xamarin_Lab-master\SampleLab\SampleLab.ViewModel\bin\Debug\SampleLab.Model.pdb
+C:\Users\patilsu5\Downloads\Xamarin_Lab-master\Xamarin_Lab-master\SampleLab\SampleLab.ViewModel\bin\Debug\Xamarin.Forms.Core.xml
+C:\Users\patilsu5\Downloads\Xamarin_Lab-master\Xamarin_Lab-master\SampleLab\SampleLab.ViewModel\bin\Debug\Xamarin.Forms.Xaml.xml
+C:\Users\patilsu5\Downloads\Xamarin_Lab-master\Xamarin_Lab-master\SampleLab\SampleLab.ViewModel\obj\Debug\SampleLab.ViewModel.csprojResolveAssemblyReference.cache
+C:\Users\patilsu5\Downloads\Xamarin_Lab-master\Xamarin_Lab-master\SampleLab\SampleLab.ViewModel\obj\Debug\SampleLab.ViewModel.dll
+C:\Users\patilsu5\Downloads\Xamarin_Lab-master\Xamarin_Lab-master\SampleLab\SampleLab.ViewModel\obj\Debug\SampleLab.ViewModel.pdb

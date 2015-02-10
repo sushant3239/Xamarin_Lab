@@ -14,3 +14,11 @@ F:\Data\Xamarin\Forms\Git_Lab\Xamarin_Lab\SampleLab\SampleLab.Model\bin\Debug\Xa
 F:\Data\Xamarin\Forms\Git_Lab\Xamarin_Lab\SampleLab\SampleLab.Model\bin\Debug\Xamarin.Forms.Xaml.xml
 F:\Data\Xamarin\Forms\Git_Lab\Xamarin_Lab\SampleLab\SampleLab.Model\obj\Debug\SampleLab.Model.dll
 F:\Data\Xamarin\Forms\Git_Lab\Xamarin_Lab\SampleLab\SampleLab.Model\obj\Debug\SampleLab.Model.pdb
+C:\Users\patilsu5\Downloads\Xamarin_Lab-master\Xamarin_Lab-master\SampleLab\SampleLab.Model\bin\Debug\SampleLab.Model.dll
+C:\Users\patilsu5\Downloads\Xamarin_Lab-master\Xamarin_Lab-master\SampleLab\SampleLab.Model\bin\Debug\SampleLab.Model.pdb
+C:\Users\patilsu5\Downloads\Xamarin_Lab-master\Xamarin_Lab-master\SampleLab\SampleLab.Model\bin\Debug\Xamarin.Forms.Core.dll
+C:\Users\patilsu5\Downloads\Xamarin_Lab-master\Xamarin_Lab-master\SampleLab\SampleLab.Model\bin\Debug\Xamarin.Forms.Xaml.dll
+C:\Users\patilsu5\Downloads\Xamarin_Lab-master\Xamarin_Lab-master\SampleLab\SampleLab.Model\bin\Debug\Xamarin.Forms.Core.xml
+C:\Users\patilsu5\Downloads\Xamarin_Lab-master\Xamarin_Lab-master\SampleLab\SampleLab.Model\bin\Debug\Xamarin.Forms.Xaml.xml
+C:\Users\patilsu5\Downloads\Xamarin_Lab-master\Xamarin_Lab-master\SampleLab\SampleLab.Model\obj\Debug\SampleLab.Model.dll
+C:\Users\patilsu5\Downloads\Xamarin_Lab-master\Xamarin_Lab-master\SampleLab\SampleLab.Model\obj\Debug\SampleLab.Model.pdb

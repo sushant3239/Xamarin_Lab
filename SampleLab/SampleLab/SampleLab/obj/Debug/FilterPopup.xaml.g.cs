@@ -18,20 +18,20 @@ namespace SampleLab.CustomControls {
         
         private StackLayout RootLayout;
         
-        private global::SampleLab.CustomControls.BindableRadioGroup GroupDueDate;
+        private global::SampleLab.CustomControls.SegmentControl GroupDueDate;
         
-        private global::SampleLab.CustomControls.BindableRadioGroup GroupReviewNote;
+        private global::SampleLab.CustomControls.SegmentControl GroupReviewNote;
         
-        private global::SampleLab.CustomControls.BindableRadioGroup GroupAuditPhase;
+        private global::SampleLab.CustomControls.SegmentControl GroupAuditPhase;
         
         private global::SampleLab.CustomControls.TapableLabel LabelEngagement;
         
         private void InitializeComponent() {
             this.LoadFromXaml(typeof(FilterPopup));
             RootLayout = this.FindByName<StackLayout>("RootLayout");
-            GroupDueDate = this.FindByName<global::SampleLab.CustomControls.BindableRadioGroup>("GroupDueDate");
-            GroupReviewNote = this.FindByName<global::SampleLab.CustomControls.BindableRadioGroup>("GroupReviewNote");
-            GroupAuditPhase = this.FindByName<global::SampleLab.CustomControls.BindableRadioGroup>("GroupAuditPhase");
+            GroupDueDate = this.FindByName<global::SampleLab.CustomControls.SegmentControl>("GroupDueDate");
+            GroupReviewNote = this.FindByName<global::SampleLab.CustomControls.SegmentControl>("GroupReviewNote");
+            GroupAuditPhase = this.FindByName<global::SampleLab.CustomControls.SegmentControl>("GroupAuditPhase");
             LabelEngagement = this.FindByName<global::SampleLab.CustomControls.TapableLabel>("LabelEngagement");
         }
     }

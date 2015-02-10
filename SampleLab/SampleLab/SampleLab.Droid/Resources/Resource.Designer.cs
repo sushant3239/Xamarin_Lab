@@ -26,10 +26,617 @@ namespace SampleLab.Droid
 		
 		public static void UpdateIdValues()
 		{
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Attribute.AreaSeriesStyle = global::SampleLab.Droid.Resource.Attribute.AreaSeriesStyle;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Attribute.AxisStyle = global::SampleLab.Droid.Resource.Attribute.AxisStyle;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Attribute.BarSeriesStyle = global::SampleLab.Droid.Resource.Attribute.BarSeriesStyle;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Attribute.CartesianAxisStyle = global::SampleLab.Droid.Resource.Attribute.CartesianAxisStyle;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Attribute.CartesianCustomAnnotationStyle = global::SampleLab.Droid.Resource.Attribute.CartesianCustomAnnotationStyle;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Attribute.CartesianPlotBandAnnotationStyle = global::SampleLab.Droid.Resource.Attribute.CartesianPlotBandAnnotationStyle;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Attribute.CartesianStrokedAnnotationStyle = global::SampleLab.Droid.Resource.Attribute.CartesianStrokedAnnotationStyle;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Attribute.CategoricalAxisStyle = global::SampleLab.Droid.Resource.Attribute.CategoricalAxisStyle;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Attribute.CategoricalSeriesStyle = global::SampleLab.Droid.Resource.Attribute.CategoricalSeriesStyle;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Attribute.CategoricalStrokedSeriesStyle = global::SampleLab.Droid.Resource.Attribute.CategoricalStrokedSeriesStyle;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Attribute.ChartAnnotationStyle = global::SampleLab.Droid.Resource.Attribute.ChartAnnotationStyle;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Attribute.ChartSeriesStyle = global::SampleLab.Droid.Resource.Attribute.ChartSeriesStyle;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Attribute.DateTimeCategoricalAxisStyle = global::SampleLab.Droid.Resource.Attribute.DateTimeCategoricalAxisStyle;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Attribute.DateTimeContinuousAxisStyle = global::SampleLab.Droid.Resource.Attribute.DateTimeContinuousAxisStyle;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Attribute.LineAxisStyle = global::SampleLab.Droid.Resource.Attribute.LineAxisStyle;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Attribute.RadChartBaseStyle = global::SampleLab.Droid.Resource.Attribute.RadChartBaseStyle;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Attribute.RangeBarSeriesStyle = global::SampleLab.Droid.Resource.Attribute.RangeBarSeriesStyle;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Attribute.TestBarSeriesStyle = global::SampleLab.Droid.Resource.Attribute.TestBarSeriesStyle;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Attribute.applyDefaultPalette = global::SampleLab.Droid.Resource.Attribute.applyDefaultPalette;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Attribute.areBarsRounded = global::SampleLab.Droid.Resource.Attribute.areBarsRounded;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Attribute.axisLabelFitMode = global::SampleLab.Droid.Resource.Attribute.axisLabelFitMode;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Attribute.axisLastLabelVisibility = global::SampleLab.Droid.Resource.Attribute.axisLastLabelVisibility;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Attribute.axisTitle = global::SampleLab.Droid.Resource.Attribute.axisTitle;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Attribute.clipToBounds = global::SampleLab.Droid.Resource.Attribute.clipToBounds;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Attribute.clipToPlotArea = global::SampleLab.Droid.Resource.Attribute.clipToPlotArea;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Attribute.combineMode = global::SampleLab.Droid.Resource.Attribute.combineMode;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Attribute.content = global::SampleLab.Droid.Resource.Attribute.content;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Attribute.dateFormat = global::SampleLab.Droid.Resource.Attribute.dateFormat;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Attribute.dateTimeComponent = global::SampleLab.Droid.Resource.Attribute.dateTimeComponent;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Attribute.emptyContent = global::SampleLab.Droid.Resource.Attribute.emptyContent;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Attribute.fillColor = global::SampleLab.Droid.Resource.Attribute.fillColor;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Attribute.fillViewport = global::SampleLab.Droid.Resource.Attribute.fillViewport;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Attribute.gapLength = global::SampleLab.Droid.Resource.Attribute.gapLength;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Attribute.horizontalAlignment = global::SampleLab.Droid.Resource.Attribute.horizontalAlignment;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Attribute.horizontalLocation = global::SampleLab.Droid.Resource.Attribute.horizontalLocation;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Attribute.horizontalOffset = global::SampleLab.Droid.Resource.Attribute.horizontalOffset;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Attribute.label = global::SampleLab.Droid.Resource.Attribute.label;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Attribute.labelColor = global::SampleLab.Droid.Resource.Attribute.labelColor;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Attribute.labelFont = global::SampleLab.Droid.Resource.Attribute.labelFont;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Attribute.labelFontStyle = global::SampleLab.Droid.Resource.Attribute.labelFontStyle;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Attribute.labelFormat = global::SampleLab.Droid.Resource.Attribute.labelFormat;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Attribute.labelInterval = global::SampleLab.Droid.Resource.Attribute.labelInterval;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Attribute.labelMargin = global::SampleLab.Droid.Resource.Attribute.labelMargin;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Attribute.labelOffset = global::SampleLab.Droid.Resource.Attribute.labelOffset;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Attribute.labelRotationAngle = global::SampleLab.Droid.Resource.Attribute.labelRotationAngle;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Attribute.labelSize = global::SampleLab.Droid.Resource.Attribute.labelSize;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Attribute.lineColor = global::SampleLab.Droid.Resource.Attribute.lineColor;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Attribute.lineThickness = global::SampleLab.Droid.Resource.Attribute.lineThickness;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Attribute.majorStep = global::SampleLab.Droid.Resource.Attribute.majorStep;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Attribute.majorStepUnit = global::SampleLab.Droid.Resource.Attribute.majorStepUnit;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Attribute.majorTickInterval = global::SampleLab.Droid.Resource.Attribute.majorTickInterval;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Attribute.majorTickOffset = global::SampleLab.Droid.Resource.Attribute.majorTickOffset;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Attribute.maxZoom = global::SampleLab.Droid.Resource.Attribute.maxZoom;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Attribute.maximumTicks = global::SampleLab.Droid.Resource.Attribute.maximumTicks;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Attribute.palette = global::SampleLab.Droid.Resource.Attribute.palette;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Attribute.pan = global::SampleLab.Droid.Resource.Attribute.pan;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Attribute.plotMode = global::SampleLab.Droid.Resource.Attribute.plotMode;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Attribute.pointerFill = global::SampleLab.Droid.Resource.Attribute.pointerFill;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Attribute.pointerMargin = global::SampleLab.Droid.Resource.Attribute.pointerMargin;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Attribute.pointerSize = global::SampleLab.Droid.Resource.Attribute.pointerSize;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Attribute.radScrollViewStyle = global::SampleLab.Droid.Resource.Attribute.radScrollViewStyle;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Attribute.roundBarsRadius = global::SampleLab.Droid.Resource.Attribute.roundBarsRadius;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Attribute.scrollMode = global::SampleLab.Droid.Resource.Attribute.scrollMode;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Attribute.showLabels = global::SampleLab.Droid.Resource.Attribute.showLabels;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Attribute.strokeColor = global::SampleLab.Droid.Resource.Attribute.strokeColor;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Attribute.strokeWidth = global::SampleLab.Droid.Resource.Attribute.strokeWidth;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Attribute.tickThickness = global::SampleLab.Droid.Resource.Attribute.tickThickness;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Attribute.verticalAlignment = global::SampleLab.Droid.Resource.Attribute.verticalAlignment;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Attribute.verticalLocation = global::SampleLab.Droid.Resource.Attribute.verticalLocation;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Attribute.verticalOffset = global::SampleLab.Droid.Resource.Attribute.verticalOffset;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Attribute.zoom = global::SampleLab.Droid.Resource.Attribute.zoom;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Color.black = global::SampleLab.Droid.Resource.Color.black;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Color.red = global::SampleLab.Droid.Resource.Color.red;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Color.white = global::SampleLab.Droid.Resource.Color.white;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Dimension.legend_stroke_width = global::SampleLab.Droid.Resource.Dimension.legend_stroke_width;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Dimension.trackball_indicator_radius = global::SampleLab.Droid.Resource.Dimension.trackball_indicator_radius;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Id.BetweenTicks = global::SampleLab.Droid.Resource.Id.BetweenTicks;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Id.Bottom = global::SampleLab.Droid.Resource.Id.Bottom;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Id.Clip = global::SampleLab.Droid.Resource.Id.Clip;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Id.Cluster = global::SampleLab.Droid.Resource.Id.Cluster;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Id.Date = global::SampleLab.Droid.Resource.Id.Date;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Id.Day = global::SampleLab.Droid.Resource.Id.Day;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Id.DayOfWeek = global::SampleLab.Droid.Resource.Id.DayOfWeek;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Id.DayOfYear = global::SampleLab.Droid.Resource.Id.DayOfYear;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Id.Hidden = global::SampleLab.Droid.Resource.Id.Hidden;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Id.Hour = global::SampleLab.Droid.Resource.Id.Hour;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Id.Left = global::SampleLab.Droid.Resource.Id.Left;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Id.Millisecond = global::SampleLab.Droid.Resource.Id.Millisecond;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Id.Minute = global::SampleLab.Droid.Resource.Id.Minute;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Id.Month = global::SampleLab.Droid.Resource.Id.Month;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Id.Multiline = global::SampleLab.Droid.Resource.Id.Multiline;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Id.None = global::SampleLab.Droid.Resource.Id.None;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Id.OnTicks = global::SampleLab.Droid.Resource.Id.OnTicks;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Id.OnTicksPadded = global::SampleLab.Droid.Resource.Id.OnTicksPadded;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Id.Quarter = global::SampleLab.Droid.Resource.Id.Quarter;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Id.Right = global::SampleLab.Droid.Resource.Id.Right;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Id.Rotate = global::SampleLab.Droid.Resource.Id.Rotate;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Id.Second = global::SampleLab.Droid.Resource.Id.Second;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Id.Stack = global::SampleLab.Droid.Resource.Id.Stack;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Id.Stack100 = global::SampleLab.Droid.Resource.Id.Stack100;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Id.TimeOfDay = global::SampleLab.Droid.Resource.Id.TimeOfDay;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Id.Top = global::SampleLab.Droid.Resource.Id.Top;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Id.Visible = global::SampleLab.Droid.Resource.Id.Visible;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Id.Week = global::SampleLab.Droid.Resource.Id.Week;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Id.Year = global::SampleLab.Droid.Resource.Id.Year;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Id.areaText = global::SampleLab.Droid.Resource.Id.areaText;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Id.bottom = global::SampleLab.Droid.Resource.Id.bottom;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Id.center = global::SampleLab.Droid.Resource.Id.center;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Id.chart_data_point_content_container = global::SampleLab.Droid.Resource.Id.chart_data_point_content_container;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Id.chart_layout_root = global::SampleLab.Droid.Resource.Id.chart_layout_root;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Id.chart_tooltip_category = global::SampleLab.Droid.Resource.Id.chart_tooltip_category;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Id.chart_tooltip_pointer = global::SampleLab.Droid.Resource.Id.chart_tooltip_pointer;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Id.chart_tooltip_value = global::SampleLab.Droid.Resource.Id.chart_tooltip_value;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Id.chart_trackball_category = global::SampleLab.Droid.Resource.Id.chart_trackball_category;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Id.chart_trackball_value = global::SampleLab.Droid.Resource.Id.chart_trackball_value;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Id.closeText = global::SampleLab.Droid.Resource.Id.closeText;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Id.emptyContent = global::SampleLab.Droid.Resource.Id.emptyContent;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Id.highText = global::SampleLab.Droid.Resource.Id.highText;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Id.horizontal = global::SampleLab.Droid.Resource.Id.horizontal;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Id.left = global::SampleLab.Droid.Resource.Id.left;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Id.legendItemIconView = global::SampleLab.Droid.Resource.Id.legendItemIconView;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Id.legendItemTitleView = global::SampleLab.Droid.Resource.Id.legendItemTitleView;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Id.legendListView = global::SampleLab.Droid.Resource.Id.legendListView;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Id.lowText = global::SampleLab.Droid.Resource.Id.lowText;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Id.openText = global::SampleLab.Droid.Resource.Id.openText;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Id.renderSurface = global::SampleLab.Droid.Resource.Id.renderSurface;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Id.right = global::SampleLab.Droid.Resource.Id.right;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Id.tooltip_content_container = global::SampleLab.Droid.Resource.Id.tooltip_content_container;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Id.top = global::SampleLab.Droid.Resource.Id.top;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Id.trackball_points_list = global::SampleLab.Droid.Resource.Id.trackball_points_list;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Id.vertical = global::SampleLab.Droid.Resource.Id.vertical;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Id.xText = global::SampleLab.Droid.Resource.Id.xText;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Id.yText = global::SampleLab.Droid.Resource.Id.yText;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Layout.default_tooltip_content = global::SampleLab.Droid.Resource.Layout.default_tooltip_content;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Layout.default_tooltip_ohlc_content = global::SampleLab.Droid.Resource.Layout.default_tooltip_ohlc_content;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Layout.default_tooltip_scatter_bubble_content = global::SampleLab.Droid.Resource.Layout.default_tooltip_scatter_bubble_content;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Layout.default_tooltip_scatter_content = global::SampleLab.Droid.Resource.Layout.default_tooltip_scatter_content;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Layout.default_trackball_content = global::SampleLab.Droid.Resource.Layout.default_trackball_content;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Layout.default_trackball_item_content = global::SampleLab.Droid.Resource.Layout.default_trackball_item_content;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Layout.legend_item_view = global::SampleLab.Droid.Resource.Layout.legend_item_view;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Layout.ohlc_trackball_item_content = global::SampleLab.Droid.Resource.Layout.ohlc_trackball_item_content;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Layout.radchartbase = global::SampleLab.Droid.Resource.Layout.radchartbase;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Layout.radlegendcontrol = global::SampleLab.Droid.Resource.Layout.radlegendcontrol;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Layout.range_trackball_item_content = global::SampleLab.Droid.Resource.Layout.range_trackball_item_content;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Layout.tooltip_container = global::SampleLab.Droid.Resource.Layout.tooltip_container;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Layout.trackball_container = global::SampleLab.Droid.Resource.Layout.trackball_container;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Layout.trial_message = global::SampleLab.Droid.Resource.Layout.trial_message;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.String.ApplicationName = global::SampleLab.Droid.Resource.String.ApplicationName;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.String.Hello = global::SampleLab.Droid.Resource.String.Hello;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.String.trial_message = global::SampleLab.Droid.Resource.String.trial_message;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.String.trial_message_caption = global::SampleLab.Droid.Resource.String.trial_message_caption;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Style.AppBaseTheme = global::SampleLab.Droid.Resource.Style.AppBaseTheme;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Style.AppTheme = global::SampleLab.Droid.Resource.Style.AppTheme;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Style.AxisStyle = global::SampleLab.Droid.Resource.Style.AxisStyle;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Style.AxisStyle_LineAxisStyle = global::SampleLab.Droid.Resource.Style.AxisStyle_LineAxisStyle;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Style.AxisStyle_LineAxisStyle_CartesianAxisStyle = global::SampleLab.Droid.Resource.Style.AxisStyle_LineAxisStyle_CartesianAxisStyle;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Style.AxisStyle_LineAxisStyle_CartesianAxisStyle_CategoricalAxisStyle = global::SampleLab.Droid.Resource.Style.AxisStyle_LineAxisStyle_CartesianAxisStyle_CategoricalAxisStyle;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Style.AxisStyle_LineAxisStyle_CartesianAxisStyle_CategoricalAxisStyle_DateTimeCategoricalAxisStyle = global::SampleLab.Droid.Resource.Style.AxisStyle_LineAxisStyle_CartesianAxisStyle_CategoricalAxisStyle_DateTimeCategoricalAxisStyle;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Style.AxisStyle_LineAxisStyle_CartesianAxisStyle_CategoricalAxisStyle_TestDateTimeCategoricalAxisStyle = global::SampleLab.Droid.Resource.Style.AxisStyle_LineAxisStyle_CartesianAxisStyle_CategoricalAxisStyle_TestDateTimeCategoricalAxisStyle;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Style.AxisStyle_LineAxisStyle_CartesianAxisStyle_DateTimeContinuousAxisStyle = global::SampleLab.Droid.Resource.Style.AxisStyle_LineAxisStyle_CartesianAxisStyle_DateTimeContinuousAxisStyle;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Style.ChartAnnotationStyle = global::SampleLab.Droid.Resource.Style.ChartAnnotationStyle;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Style.ChartAnnotationStyle_CartesianCustomAnnotationStyle = global::SampleLab.Droid.Resource.Style.ChartAnnotationStyle_CartesianCustomAnnotationStyle;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Style.ChartAnnotationStyle_CartesianStrokedAnnotationStyle = global::SampleLab.Droid.Resource.Style.ChartAnnotationStyle_CartesianStrokedAnnotationStyle;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Style.ChartAnnotationStyle_CartesianStrokedAnnotationStyle_CartesianPlotBandAnnotationStyle = global::SampleLab.Droid.Resource.Style.ChartAnnotationStyle_CartesianStrokedAnnotationStyle_CartesianPlotBandAnnotationStyle;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Style.ChartSeriesStyle = global::SampleLab.Droid.Resource.Style.ChartSeriesStyle;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Style.ChartSeriesStyle_CategoricalSeriesStyle = global::SampleLab.Droid.Resource.Style.ChartSeriesStyle_CategoricalSeriesStyle;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Style.ChartSeriesStyle_CategoricalSeriesStyle_BarSeriesStyle = global::SampleLab.Droid.Resource.Style.ChartSeriesStyle_CategoricalSeriesStyle_BarSeriesStyle;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Style.ChartSeriesStyle_CategoricalSeriesStyle_CategoricalStrokedSeriesStyle = global::SampleLab.Droid.Resource.Style.ChartSeriesStyle_CategoricalSeriesStyle_CategoricalStrokedSeriesStyle;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Style.ChartSeriesStyle_CategoricalSeriesStyle_CategoricalStrokedSeriesStyle_AreaSeriesStyle = global::SampleLab.Droid.Resource.Style.ChartSeriesStyle_CategoricalSeriesStyle_CategoricalStrokedSeriesStyle_AreaSeriesStyle;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Style.ChartSeriesStyle_CategoricalSeriesStyle_RangeBarSeriesStyle = global::SampleLab.Droid.Resource.Style.ChartSeriesStyle_CategoricalSeriesStyle_RangeBarSeriesStyle;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Style.ChartSeriesStyle_CategoricalSeriesStyle_TestBarSeriesStyle = global::SampleLab.Droid.Resource.Style.ChartSeriesStyle_CategoricalSeriesStyle_TestBarSeriesStyle;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Style.RadChartBaseStyle = global::SampleLab.Droid.Resource.Style.RadChartBaseStyle;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Style.RadScrollViewStyle = global::SampleLab.Droid.Resource.Style.RadScrollViewStyle;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Style.RadScrollViewTheme = global::SampleLab.Droid.Resource.Style.RadScrollViewTheme;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Style.Theme_ChartTheme = global::SampleLab.Droid.Resource.Style.Theme_ChartTheme;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Xml.chart_palettes_dark_selected = global::SampleLab.Droid.Resource.Xml.chart_palettes_dark_selected;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Xml.chart_palettes_default_dark = global::SampleLab.Droid.Resource.Xml.chart_palettes_default_dark;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Xml.chart_palettes_default_light = global::SampleLab.Droid.Resource.Xml.chart_palettes_default_light;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Xml.chart_palettes_light_selected = global::SampleLab.Droid.Resource.Xml.chart_palettes_light_selected;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Styleable.AreaSeries = global::SampleLab.Droid.Resource.Styleable.AreaSeries;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Styleable.AreaSeries_fillColor = global::SampleLab.Droid.Resource.Styleable.AreaSeries_fillColor;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Styleable.Axis = global::SampleLab.Droid.Resource.Styleable.Axis;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Styleable.Axis_axisLabelFitMode = global::SampleLab.Droid.Resource.Styleable.Axis_axisLabelFitMode;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Styleable.Axis_axisLastLabelVisibility = global::SampleLab.Droid.Resource.Styleable.Axis_axisLastLabelVisibility;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Styleable.Axis_axisTitle = global::SampleLab.Droid.Resource.Styleable.Axis_axisTitle;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Styleable.Axis_labelColor = global::SampleLab.Droid.Resource.Styleable.Axis_labelColor;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Styleable.Axis_labelFont = global::SampleLab.Droid.Resource.Styleable.Axis_labelFont;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Styleable.Axis_labelFontStyle = global::SampleLab.Droid.Resource.Styleable.Axis_labelFontStyle;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Styleable.Axis_labelFormat = global::SampleLab.Droid.Resource.Styleable.Axis_labelFormat;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Styleable.Axis_labelInterval = global::SampleLab.Droid.Resource.Styleable.Axis_labelInterval;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Styleable.Axis_labelMargin = global::SampleLab.Droid.Resource.Styleable.Axis_labelMargin;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Styleable.Axis_labelOffset = global::SampleLab.Droid.Resource.Styleable.Axis_labelOffset;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Styleable.Axis_labelRotationAngle = global::SampleLab.Droid.Resource.Styleable.Axis_labelRotationAngle;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Styleable.Axis_labelSize = global::SampleLab.Droid.Resource.Styleable.Axis_labelSize;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Styleable.Axis_lineThickness = global::SampleLab.Droid.Resource.Styleable.Axis_lineThickness;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Styleable.Axis_majorTickOffset = global::SampleLab.Droid.Resource.Styleable.Axis_majorTickOffset;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Styleable.Axis_showLabels = global::SampleLab.Droid.Resource.Styleable.Axis_showLabels;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Styleable.Axis_tickThickness = global::SampleLab.Droid.Resource.Styleable.Axis_tickThickness;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Styleable.BarSeries = global::SampleLab.Droid.Resource.Styleable.BarSeries;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Styleable.BarSeries_areBarsRounded = global::SampleLab.Droid.Resource.Styleable.BarSeries_areBarsRounded;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Styleable.BarSeries_fillColor = global::SampleLab.Droid.Resource.Styleable.BarSeries_fillColor;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Styleable.BarSeries_roundBarsRadius = global::SampleLab.Droid.Resource.Styleable.BarSeries_roundBarsRadius;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Styleable.BarSeries_strokeColor = global::SampleLab.Droid.Resource.Styleable.BarSeries_strokeColor;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Styleable.BarSeries_strokeWidth = global::SampleLab.Droid.Resource.Styleable.BarSeries_strokeWidth;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Styleable.CartesianAxis = global::SampleLab.Droid.Resource.Styleable.CartesianAxis;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Styleable.CartesianAxis_horizontalLocation = global::SampleLab.Droid.Resource.Styleable.CartesianAxis_horizontalLocation;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Styleable.CartesianAxis_verticalLocation = global::SampleLab.Droid.Resource.Styleable.CartesianAxis_verticalLocation;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Styleable.CartesianCustomAnnotation = global::SampleLab.Droid.Resource.Styleable.CartesianCustomAnnotation;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Styleable.CartesianCustomAnnotation_content = global::SampleLab.Droid.Resource.Styleable.CartesianCustomAnnotation_content;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Styleable.CartesianCustomAnnotation_horizontalAlignment = global::SampleLab.Droid.Resource.Styleable.CartesianCustomAnnotation_horizontalAlignment;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Styleable.CartesianCustomAnnotation_horizontalOffset = global::SampleLab.Droid.Resource.Styleable.CartesianCustomAnnotation_horizontalOffset;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Styleable.CartesianCustomAnnotation_verticalAlignment = global::SampleLab.Droid.Resource.Styleable.CartesianCustomAnnotation_verticalAlignment;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Styleable.CartesianCustomAnnotation_verticalOffset = global::SampleLab.Droid.Resource.Styleable.CartesianCustomAnnotation_verticalOffset;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Styleable.CartesianPlotBandAnnotation = global::SampleLab.Droid.Resource.Styleable.CartesianPlotBandAnnotation;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Styleable.CartesianPlotBandAnnotation_fillColor = global::SampleLab.Droid.Resource.Styleable.CartesianPlotBandAnnotation_fillColor;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Styleable.CartesianStrokedAnnotation = global::SampleLab.Droid.Resource.Styleable.CartesianStrokedAnnotation;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Styleable.CartesianStrokedAnnotation_label = global::SampleLab.Droid.Resource.Styleable.CartesianStrokedAnnotation_label;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Styleable.CartesianStrokedAnnotation_strokeColor = global::SampleLab.Droid.Resource.Styleable.CartesianStrokedAnnotation_strokeColor;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Styleable.CartesianStrokedAnnotation_strokeWidth = global::SampleLab.Droid.Resource.Styleable.CartesianStrokedAnnotation_strokeWidth;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Styleable.CategoricalAxis = global::SampleLab.Droid.Resource.Styleable.CategoricalAxis;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Styleable.CategoricalAxis_gapLength = global::SampleLab.Droid.Resource.Styleable.CategoricalAxis_gapLength;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Styleable.CategoricalAxis_majorTickInterval = global::SampleLab.Droid.Resource.Styleable.CategoricalAxis_majorTickInterval;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Styleable.CategoricalAxis_plotMode = global::SampleLab.Droid.Resource.Styleable.CategoricalAxis_plotMode;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Styleable.CategoricalSeries = global::SampleLab.Droid.Resource.Styleable.CategoricalSeries;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Styleable.CategoricalSeries_combineMode = global::SampleLab.Droid.Resource.Styleable.CategoricalSeries_combineMode;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Styleable.CategoricalStrokedSeries = global::SampleLab.Droid.Resource.Styleable.CategoricalStrokedSeries;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Styleable.CategoricalStrokedSeries_strokeColor = global::SampleLab.Droid.Resource.Styleable.CategoricalStrokedSeries_strokeColor;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Styleable.CategoricalStrokedSeries_strokeWidth = global::SampleLab.Droid.Resource.Styleable.CategoricalStrokedSeries_strokeWidth;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Styleable.ChartAnnotation = global::SampleLab.Droid.Resource.Styleable.ChartAnnotation;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Styleable.ChartAnnotation_clipToPlotArea = global::SampleLab.Droid.Resource.Styleable.ChartAnnotation_clipToPlotArea;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Styleable.ChartSeries = global::SampleLab.Droid.Resource.Styleable.ChartSeries;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Styleable.ChartSeries_clipToPlotArea = global::SampleLab.Droid.Resource.Styleable.ChartSeries_clipToPlotArea;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Styleable.ChartSeries_labelColor = global::SampleLab.Droid.Resource.Styleable.ChartSeries_labelColor;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Styleable.ChartSeries_labelFont = global::SampleLab.Droid.Resource.Styleable.ChartSeries_labelFont;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Styleable.ChartSeries_labelFontStyle = global::SampleLab.Droid.Resource.Styleable.ChartSeries_labelFontStyle;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Styleable.ChartSeries_labelFormat = global::SampleLab.Droid.Resource.Styleable.ChartSeries_labelFormat;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Styleable.ChartSeries_labelSize = global::SampleLab.Droid.Resource.Styleable.ChartSeries_labelSize;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Styleable.ChartSeries_showLabels = global::SampleLab.Droid.Resource.Styleable.ChartSeries_showLabels;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Styleable.ChartTheme = global::SampleLab.Droid.Resource.Styleable.ChartTheme;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Styleable.ChartTheme_AreaSeriesStyle = global::SampleLab.Droid.Resource.Styleable.ChartTheme_AreaSeriesStyle;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Styleable.ChartTheme_AxisStyle = global::SampleLab.Droid.Resource.Styleable.ChartTheme_AxisStyle;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Styleable.ChartTheme_BarSeriesStyle = global::SampleLab.Droid.Resource.Styleable.ChartTheme_BarSeriesStyle;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Styleable.ChartTheme_CartesianAxisStyle = global::SampleLab.Droid.Resource.Styleable.ChartTheme_CartesianAxisStyle;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Styleable.ChartTheme_CartesianCustomAnnotationStyle = global::SampleLab.Droid.Resource.Styleable.ChartTheme_CartesianCustomAnnotationStyle;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Styleable.ChartTheme_CartesianPlotBandAnnotationStyle = global::SampleLab.Droid.Resource.Styleable.ChartTheme_CartesianPlotBandAnnotationStyle;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Styleable.ChartTheme_CartesianStrokedAnnotationStyle = global::SampleLab.Droid.Resource.Styleable.ChartTheme_CartesianStrokedAnnotationStyle;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Styleable.ChartTheme_CategoricalAxisStyle = global::SampleLab.Droid.Resource.Styleable.ChartTheme_CategoricalAxisStyle;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Styleable.ChartTheme_CategoricalSeriesStyle = global::SampleLab.Droid.Resource.Styleable.ChartTheme_CategoricalSeriesStyle;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Styleable.ChartTheme_CategoricalStrokedSeriesStyle = global::SampleLab.Droid.Resource.Styleable.ChartTheme_CategoricalStrokedSeriesStyle;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Styleable.ChartTheme_ChartAnnotationStyle = global::SampleLab.Droid.Resource.Styleable.ChartTheme_ChartAnnotationStyle;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Styleable.ChartTheme_ChartSeriesStyle = global::SampleLab.Droid.Resource.Styleable.ChartTheme_ChartSeriesStyle;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Styleable.ChartTheme_DateTimeCategoricalAxisStyle = global::SampleLab.Droid.Resource.Styleable.ChartTheme_DateTimeCategoricalAxisStyle;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Styleable.ChartTheme_DateTimeContinuousAxisStyle = global::SampleLab.Droid.Resource.Styleable.ChartTheme_DateTimeContinuousAxisStyle;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Styleable.ChartTheme_LineAxisStyle = global::SampleLab.Droid.Resource.Styleable.ChartTheme_LineAxisStyle;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Styleable.ChartTheme_RadChartBaseStyle = global::SampleLab.Droid.Resource.Styleable.ChartTheme_RadChartBaseStyle;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Styleable.ChartTheme_RangeBarSeriesStyle = global::SampleLab.Droid.Resource.Styleable.ChartTheme_RangeBarSeriesStyle;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Styleable.ChartTheme_TestBarSeriesStyle = global::SampleLab.Droid.Resource.Styleable.ChartTheme_TestBarSeriesStyle;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Styleable.DateTimeCategoricalAxis = global::SampleLab.Droid.Resource.Styleable.DateTimeCategoricalAxis;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Styleable.DateTimeCategoricalAxis_dateFormat = global::SampleLab.Droid.Resource.Styleable.DateTimeCategoricalAxis_dateFormat;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Styleable.DateTimeCategoricalAxis_dateTimeComponent = global::SampleLab.Droid.Resource.Styleable.DateTimeCategoricalAxis_dateTimeComponent;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Styleable.DateTimeContinuousAxis = global::SampleLab.Droid.Resource.Styleable.DateTimeContinuousAxis;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Styleable.DateTimeContinuousAxis_gapLength = global::SampleLab.Droid.Resource.Styleable.DateTimeContinuousAxis_gapLength;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Styleable.DateTimeContinuousAxis_majorStep = global::SampleLab.Droid.Resource.Styleable.DateTimeContinuousAxis_majorStep;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Styleable.DateTimeContinuousAxis_majorStepUnit = global::SampleLab.Droid.Resource.Styleable.DateTimeContinuousAxis_majorStepUnit;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Styleable.DateTimeContinuousAxis_maximumTicks = global::SampleLab.Droid.Resource.Styleable.DateTimeContinuousAxis_maximumTicks;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Styleable.DateTimeContinuousAxis_plotMode = global::SampleLab.Droid.Resource.Styleable.DateTimeContinuousAxis_plotMode;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Styleable.LineAxis = global::SampleLab.Droid.Resource.Styleable.LineAxis;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Styleable.LineAxis_lineColor = global::SampleLab.Droid.Resource.Styleable.LineAxis_lineColor;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Styleable.PointerLayout = global::SampleLab.Droid.Resource.Styleable.PointerLayout;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Styleable.PointerLayout_pointerFill = global::SampleLab.Droid.Resource.Styleable.PointerLayout_pointerFill;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Styleable.PointerLayout_pointerMargin = global::SampleLab.Droid.Resource.Styleable.PointerLayout_pointerMargin;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Styleable.PointerLayout_pointerSize = global::SampleLab.Droid.Resource.Styleable.PointerLayout_pointerSize;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Styleable.RadChartViewBase = global::SampleLab.Droid.Resource.Styleable.RadChartViewBase;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Styleable.RadChartViewBase_clipToBounds = global::SampleLab.Droid.Resource.Styleable.RadChartViewBase_clipToBounds;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Styleable.RadChartViewBase_emptyContent = global::SampleLab.Droid.Resource.Styleable.RadChartViewBase_emptyContent;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Styleable.RadChartViewBase_maxZoom = global::SampleLab.Droid.Resource.Styleable.RadChartViewBase_maxZoom;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Styleable.RadChartViewBase_palette = global::SampleLab.Droid.Resource.Styleable.RadChartViewBase_palette;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Styleable.RadChartViewBase_pan = global::SampleLab.Droid.Resource.Styleable.RadChartViewBase_pan;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Styleable.RadChartViewBase_zoom = global::SampleLab.Droid.Resource.Styleable.RadChartViewBase_zoom;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Styleable.RadScrollView = global::SampleLab.Droid.Resource.Styleable.RadScrollView;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Styleable.RadScrollView_fillViewport = global::SampleLab.Droid.Resource.Styleable.RadScrollView_fillViewport;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Styleable.RadScrollView_scrollMode = global::SampleLab.Droid.Resource.Styleable.RadScrollView_scrollMode;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Styleable.RadScrollViewTheme = global::SampleLab.Droid.Resource.Styleable.RadScrollViewTheme;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Styleable.RadScrollViewTheme_radScrollViewStyle = global::SampleLab.Droid.Resource.Styleable.RadScrollViewTheme_radScrollViewStyle;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Styleable.RangeBarSeries = global::SampleLab.Droid.Resource.Styleable.RangeBarSeries;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Styleable.RangeBarSeries_areBarsRounded = global::SampleLab.Droid.Resource.Styleable.RangeBarSeries_areBarsRounded;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Styleable.RangeBarSeries_fillColor = global::SampleLab.Droid.Resource.Styleable.RangeBarSeries_fillColor;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Styleable.RangeBarSeries_roundBarsRadius = global::SampleLab.Droid.Resource.Styleable.RangeBarSeries_roundBarsRadius;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Styleable.RangeBarSeries_strokeColor = global::SampleLab.Droid.Resource.Styleable.RangeBarSeries_strokeColor;
+			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Styleable.RangeBarSeries_strokeWidth = global::SampleLab.Droid.Resource.Styleable.RangeBarSeries_strokeWidth;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.calendarBackground = global::SampleLab.Droid.Resource.Attribute.calendarBackground;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.calendarStyle = global::SampleLab.Droid.Resource.Attribute.calendarStyle;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.displayMode = global::SampleLab.Droid.Resource.Attribute.displayMode;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.fillViewport = global::SampleLab.Droid.Resource.Attribute.fillViewport;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.isYearModeCompact = global::SampleLab.Droid.Resource.Attribute.isYearModeCompact;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.pointerFill = global::SampleLab.Droid.Resource.Attribute.pointerFill;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.pointerMargin = global::SampleLab.Droid.Resource.Attribute.pointerMargin;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.pointerSize = global::SampleLab.Droid.Resource.Attribute.pointerSize;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.radScrollViewStyle = global::SampleLab.Droid.Resource.Attribute.radScrollViewStyle;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.scrollMode = global::SampleLab.Droid.Resource.Attribute.scrollMode;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.selectionMode = global::SampleLab.Droid.Resource.Attribute.selectionMode;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.showCellDecorations = global::SampleLab.Droid.Resource.Attribute.showCellDecorations;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.showDayNames = global::SampleLab.Droid.Resource.Attribute.showDayNames;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.showGridLines = global::SampleLab.Droid.Resource.Attribute.showGridLines;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.showTitle = global::SampleLab.Droid.Resource.Attribute.showTitle;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.state_calendar_cell_today = global::SampleLab.Droid.Resource.Attribute.state_calendar_cell_today;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Attribute.weekNumberDisplayMode = global::SampleLab.Droid.Resource.Attribute.weekNumberDisplayMode;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Color.black = global::SampleLab.Droid.Resource.Color.black;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Color.white = global::SampleLab.Droid.Resource.Color.white;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Dimension.date_text_size_year_mode = global::SampleLab.Droid.Resource.Dimension.date_text_size_year_mode;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Dimension.legend_stroke_width = global::SampleLab.Droid.Resource.Dimension.legend_stroke_width;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Id.Block = global::SampleLab.Droid.Resource.Id.Block;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Id.Inline = global::SampleLab.Droid.Resource.Id.Inline;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Id.Month = global::SampleLab.Droid.Resource.Id.Month;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Id.Multiple = global::SampleLab.Droid.Resource.Id.Multiple;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Id.None = global::SampleLab.Droid.Resource.Id.None;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Id.Range = global::SampleLab.Droid.Resource.Id.Range;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Id.Single = global::SampleLab.Droid.Resource.Id.Single;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Id.Week = global::SampleLab.Droid.Resource.Id.Week;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Id.Year = global::SampleLab.Droid.Resource.Id.Year;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Id.chart_data_point_content_container = global::SampleLab.Droid.Resource.Id.chart_data_point_content_container;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Id.chart_tooltip_category = global::SampleLab.Droid.Resource.Id.chart_tooltip_category;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Id.chart_tooltip_pointer = global::SampleLab.Droid.Resource.Id.chart_tooltip_pointer;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Id.chart_tooltip_value = global::SampleLab.Droid.Resource.Id.chart_tooltip_value;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Id.horizontal = global::SampleLab.Droid.Resource.Id.horizontal;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Id.tooltip_content_container = global::SampleLab.Droid.Resource.Id.tooltip_content_container;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Id.vertical = global::SampleLab.Droid.Resource.Id.vertical;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Layout.default_tooltip_content = global::SampleLab.Droid.Resource.Layout.default_tooltip_content;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Layout.tooltip_container = global::SampleLab.Droid.Resource.Layout.tooltip_container;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Layout.trial_message = global::SampleLab.Droid.Resource.Layout.trial_message;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.String.ApplicationName = global::SampleLab.Droid.Resource.String.ApplicationName;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.String.Hello = global::SampleLab.Droid.Resource.String.Hello;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.String.trial_message = global::SampleLab.Droid.Resource.String.trial_message;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.String.trial_message_caption = global::SampleLab.Droid.Resource.String.trial_message_caption;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.CalendarDefaultStyle = global::SampleLab.Droid.Resource.Style.CalendarDefaultStyle;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.RadScrollViewStyle = global::SampleLab.Droid.Resource.Style.RadScrollViewStyle;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.RadScrollViewTheme = global::SampleLab.Droid.Resource.Style.RadScrollViewTheme;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Style.Theme_CalendarTheme = global::SampleLab.Droid.Resource.Style.Theme_CalendarTheme;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.CalendarCellState = global::SampleLab.Droid.Resource.Styleable.CalendarCellState;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.CalendarCellState_state_calendar_cell_today = global::SampleLab.Droid.Resource.Styleable.CalendarCellState_state_calendar_cell_today;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.CalendarTheme = global::SampleLab.Droid.Resource.Styleable.CalendarTheme;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.CalendarTheme_calendarStyle = global::SampleLab.Droid.Resource.Styleable.CalendarTheme_calendarStyle;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.PointerLayout = global::SampleLab.Droid.Resource.Styleable.PointerLayout;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.PointerLayout_pointerFill = global::SampleLab.Droid.Resource.Styleable.PointerLayout_pointerFill;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.PointerLayout_pointerMargin = global::SampleLab.Droid.Resource.Styleable.PointerLayout_pointerMargin;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.PointerLayout_pointerSize = global::SampleLab.Droid.Resource.Styleable.PointerLayout_pointerSize;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.RadCalendarView = global::SampleLab.Droid.Resource.Styleable.RadCalendarView;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.RadCalendarView_calendarBackground = global::SampleLab.Droid.Resource.Styleable.RadCalendarView_calendarBackground;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.RadCalendarView_displayMode = global::SampleLab.Droid.Resource.Styleable.RadCalendarView_displayMode;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.RadCalendarView_isYearModeCompact = global::SampleLab.Droid.Resource.Styleable.RadCalendarView_isYearModeCompact;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.RadCalendarView_selectionMode = global::SampleLab.Droid.Resource.Styleable.RadCalendarView_selectionMode;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.RadCalendarView_showCellDecorations = global::SampleLab.Droid.Resource.Styleable.RadCalendarView_showCellDecorations;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.RadCalendarView_showDayNames = global::SampleLab.Droid.Resource.Styleable.RadCalendarView_showDayNames;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.RadCalendarView_showGridLines = global::SampleLab.Droid.Resource.Styleable.RadCalendarView_showGridLines;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.RadCalendarView_showTitle = global::SampleLab.Droid.Resource.Styleable.RadCalendarView_showTitle;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.RadCalendarView_weekNumberDisplayMode = global::SampleLab.Droid.Resource.Styleable.RadCalendarView_weekNumberDisplayMode;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.RadScrollView = global::SampleLab.Droid.Resource.Styleable.RadScrollView;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.RadScrollView_fillViewport = global::SampleLab.Droid.Resource.Styleable.RadScrollView_fillViewport;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.RadScrollView_scrollMode = global::SampleLab.Droid.Resource.Styleable.RadScrollView_scrollMode;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.RadScrollViewTheme = global::SampleLab.Droid.Resource.Styleable.RadScrollViewTheme;
+			global::Telerik.XamarinForms.InputRenderer.Android.Resource.Styleable.RadScrollViewTheme_radScrollViewStyle = global::SampleLab.Droid.Resource.Styleable.RadScrollViewTheme_radScrollViewStyle;
 		}
 		
 		public partial class Attribute
 		{
+			
+			// aapt resource value: 0x7f01004c
+			public const int AreaSeriesStyle = 2130772044;
+			
+			// aapt resource value: 0x7f010040
+			public const int AxisStyle = 2130772032;
+			
+			// aapt resource value: 0x7f010048
+			public const int BarSeriesStyle = 2130772040;
+			
+			// aapt resource value: 0x7f010041
+			public const int CartesianAxisStyle = 2130772033;
+			
+			// aapt resource value: 0x7f010050
+			public const int CartesianCustomAnnotationStyle = 2130772048;
+			
+			// aapt resource value: 0x7f01004f
+			public const int CartesianPlotBandAnnotationStyle = 2130772047;
+			
+			// aapt resource value: 0x7f01004e
+			public const int CartesianStrokedAnnotationStyle = 2130772046;
+			
+			// aapt resource value: 0x7f010042
+			public const int CategoricalAxisStyle = 2130772034;
+			
+			// aapt resource value: 0x7f01004a
+			public const int CategoricalSeriesStyle = 2130772042;
+			
+			// aapt resource value: 0x7f01004b
+			public const int CategoricalStrokedSeriesStyle = 2130772043;
+			
+			// aapt resource value: 0x7f01004d
+			public const int ChartAnnotationStyle = 2130772045;
+			
+			// aapt resource value: 0x7f010046
+			public const int ChartSeriesStyle = 2130772038;
+			
+			// aapt resource value: 0x7f010043
+			public const int DateTimeCategoricalAxisStyle = 2130772035;
+			
+			// aapt resource value: 0x7f010044
+			public const int DateTimeContinuousAxisStyle = 2130772036;
+			
+			// aapt resource value: 0x7f010047
+			public const int LineAxisStyle = 2130772039;
+			
+			// aapt resource value: 0x7f010045
+			public const int RadChartBaseStyle = 2130772037;
+			
+			// aapt resource value: 0x7f010049
+			public const int RangeBarSeriesStyle = 2130772041;
+			
+			// aapt resource value: 0x7f010051
+			public const int TestBarSeriesStyle = 2130772049;
+			
+			// aapt resource value: 0x7f010021
+			public const int applyDefaultPalette = 2130772001;
+			
+			// aapt resource value: 0x7f01001e
+			public const int areBarsRounded = 2130771998;
+			
+			// aapt resource value: 0x7f01002d
+			public const int axisLabelFitMode = 2130772013;
+			
+			// aapt resource value: 0x7f01002a
+			public const int axisLastLabelVisibility = 2130772010;
+			
+			// aapt resource value: 0x7f01002e
+			public const int axisTitle = 2130772014;
+			
+			// aapt resource value: 0x7f010007
+			public const int calendarBackground = 2130771975;
+			
+			// aapt resource value: 0x7f010010
+			public const int calendarStyle = 2130771984;
+			
+			// aapt resource value: 0x7f010025
+			public const int clipToBounds = 2130772005;
+			
+			// aapt resource value: 0x7f010011
+			public const int clipToPlotArea = 2130771985;
+			
+			// aapt resource value: 0x7f010028
+			public const int combineMode = 2130772008;
+			
+			// aapt resource value: 0x7f01003d
+			public const int content = 2130772029;
+			
+			// aapt resource value: 0x7f010035
+			public const int dateFormat = 2130772021;
+			
+			// aapt resource value: 0x7f010036
+			public const int dateTimeComponent = 2130772022;
+			
+			// aapt resource value: 0x7f01000d
+			public const int displayMode = 2130771981;
+			
+			// aapt resource value: 0x7f010026
+			public const int emptyContent = 2130772006;
+			
+			// aapt resource value: 0x7f01001d
+			public const int fillColor = 2130771997;
+			
+			// aapt resource value: 0x7f010003
+			public const int fillViewport = 2130771971;
+			
+			// aapt resource value: 0x7f010013
+			public const int gapLength = 2130771987;
+			
+			// aapt resource value: 0x7f01003e
+			public const int horizontalAlignment = 2130772030;
+			
+			// aapt resource value: 0x7f010033
+			public const int horizontalLocation = 2130772019;
+			
+			// aapt resource value: 0x7f01003b
+			public const int horizontalOffset = 2130772027;
+			
+			// aapt resource value: 0x7f01000f
+			public const int isYearModeCompact = 2130771983;
+			
+			// aapt resource value: 0x7f01003a
+			public const int label = 2130772026;
+			
+			// aapt resource value: 0x7f010015
+			public const int labelColor = 2130771989;
+			
+			// aapt resource value: 0x7f010019
+			public const int labelFont = 2130771993;
+			
+			// aapt resource value: 0x7f01001a
+			public const int labelFontStyle = 2130771994;
+			
+			// aapt resource value: 0x7f010020
+			public const int labelFormat = 2130772000;
+			
+			// aapt resource value: 0x7f010030
+			public const int labelInterval = 2130772016;
+			
+			// aapt resource value: 0x7f010017
+			public const int labelMargin = 2130771991;
+			
+			// aapt resource value: 0x7f01002c
+			public const int labelOffset = 2130772012;
+			
+			// aapt resource value: 0x7f010029
+			public const int labelRotationAngle = 2130772009;
+			
+			// aapt resource value: 0x7f010016
+			public const int labelSize = 2130771990;
+			
+			// aapt resource value: 0x7f010031
+			public const int lineColor = 2130772017;
+			
+			// aapt resource value: 0x7f010018
+			public const int lineThickness = 2130771992;
+			
+			// aapt resource value: 0x7f010038
+			public const int majorStep = 2130772024;
+			
+			// aapt resource value: 0x7f010039
+			public const int majorStepUnit = 2130772025;
+			
+			// aapt resource value: 0x7f010032
+			public const int majorTickInterval = 2130772018;
+			
+			// aapt resource value: 0x7f01002b
+			public const int majorTickOffset = 2130772011;
+			
+			// aapt resource value: 0x7f010024
+			public const int maxZoom = 2130772004;
+			
+			// aapt resource value: 0x7f010037
+			public const int maximumTicks = 2130772023;
+			
+			// aapt resource value: 0x7f010027
+			public const int palette = 2130772007;
+			
+			// aapt resource value: 0x7f010022
+			public const int pan = 2130772002;
+			
+			// aapt resource value: 0x7f010014
+			public const int plotMode = 2130771988;
+			
+			// aapt resource value: 0x7f010002
+			public const int pointerFill = 2130771970;
+			
+			// aapt resource value: 0x7f010001
+			public const int pointerMargin = 2130771969;
+			
+			// aapt resource value: 0x7f010000
+			public const int pointerSize = 2130771968;
+			
+			// aapt resource value: 0x7f010005
+			public const int radScrollViewStyle = 2130771973;
+			
+			// aapt resource value: 0x7f01001f
+			public const int roundBarsRadius = 2130771999;
+			
+			// aapt resource value: 0x7f010004
+			public const int scrollMode = 2130771972;
+			
+			// aapt resource value: 0x7f01000c
+			public const int selectionMode = 2130771980;
+			
+			// aapt resource value: 0x7f01000b
+			public const int showCellDecorations = 2130771979;
+			
+			// aapt resource value: 0x7f010009
+			public const int showDayNames = 2130771977;
+			
+			// aapt resource value: 0x7f01000a
+			public const int showGridLines = 2130771978;
+			
+			// aapt resource value: 0x7f010012
+			public const int showLabels = 2130771986;
+			
+			// aapt resource value: 0x7f010008
+			public const int showTitle = 2130771976;
+			
+			// aapt resource value: 0x7f010006
+			public const int state_calendar_cell_today = 2130771974;
+			
+			// aapt resource value: 0x7f01001b
+			public const int strokeColor = 2130771995;
+			
+			// aapt resource value: 0x7f01001c
+			public const int strokeWidth = 2130771996;
+			
+			// aapt resource value: 0x7f01002f
+			public const int tickThickness = 2130772015;
+			
+			// aapt resource value: 0x7f01003f
+			public const int verticalAlignment = 2130772031;
+			
+			// aapt resource value: 0x7f010034
+			public const int verticalLocation = 2130772020;
+			
+			// aapt resource value: 0x7f01003c
+			public const int verticalOffset = 2130772028;
+			
+			// aapt resource value: 0x7f01000e
+			public const int weekNumberDisplayMode = 2130771982;
+			
+			// aapt resource value: 0x7f010023
+			public const int zoom = 2130772003;
 			
 			static Attribute()
 			{
@@ -37,6 +644,50 @@ namespace SampleLab.Droid
 			}
 			
 			private Attribute()
+			{
+			}
+		}
+		
+		public partial class Color
+		{
+			
+			// aapt resource value: 0x7f080001
+			public const int black = 2131230721;
+			
+			// aapt resource value: 0x7f080002
+			public const int red = 2131230722;
+			
+			// aapt resource value: 0x7f080000
+			public const int white = 2131230720;
+			
+			static Color()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Color()
+			{
+			}
+		}
+		
+		public partial class Dimension
+		{
+			
+			// aapt resource value: 0x7f060001
+			public const int date_text_size_year_mode = 2131099649;
+			
+			// aapt resource value: 0x7f060000
+			public const int legend_stroke_width = 2131099648;
+			
+			// aapt resource value: 0x7f060002
+			public const int trackball_indicator_radius = 2131099650;
+			
+			static Dimension()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Dimension()
 			{
 			}
 		}
@@ -63,8 +714,194 @@ namespace SampleLab.Droid
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f050000
-			public const int NavigateToForms = 2131034112;
+			// aapt resource value: 0x7f09000b
+			public const int BetweenTicks = 2131296267;
+			
+			// aapt resource value: 0x7f090008
+			public const int Block = 2131296264;
+			
+			// aapt resource value: 0x7f090018
+			public const int Bottom = 2131296280;
+			
+			// aapt resource value: 0x7f090011
+			public const int Clip = 2131296273;
+			
+			// aapt resource value: 0x7f09000e
+			public const int Cluster = 2131296270;
+			
+			// aapt resource value: 0x7f09001a
+			public const int Date = 2131296282;
+			
+			// aapt resource value: 0x7f09001b
+			public const int Day = 2131296283;
+			
+			// aapt resource value: 0x7f09001c
+			public const int DayOfWeek = 2131296284;
+			
+			// aapt resource value: 0x7f09001d
+			public const int DayOfYear = 2131296285;
+			
+			// aapt resource value: 0x7f090012
+			public const int Hidden = 2131296274;
+			
+			// aapt resource value: 0x7f09001e
+			public const int Hour = 2131296286;
+			
+			// aapt resource value: 0x7f090009
+			public const int Inline = 2131296265;
+			
+			// aapt resource value: 0x7f090016
+			public const int Left = 2131296278;
+			
+			// aapt resource value: 0x7f09001f
+			public const int Millisecond = 2131296287;
+			
+			// aapt resource value: 0x7f090020
+			public const int Minute = 2131296288;
+			
+			// aapt resource value: 0x7f090005
+			public const int Month = 2131296261;
+			
+			// aapt resource value: 0x7f090014
+			public const int Multiline = 2131296276;
+			
+			// aapt resource value: 0x7f090002
+			public const int Multiple = 2131296258;
+			
+			// aapt resource value: 0x7f090038
+			public const int NavigateToForms = 2131296312;
+			
+			// aapt resource value: 0x7f09000a
+			public const int None = 2131296266;
+			
+			// aapt resource value: 0x7f09000c
+			public const int OnTicks = 2131296268;
+			
+			// aapt resource value: 0x7f09000d
+			public const int OnTicksPadded = 2131296269;
+			
+			// aapt resource value: 0x7f090021
+			public const int Quarter = 2131296289;
+			
+			// aapt resource value: 0x7f090003
+			public const int Range = 2131296259;
+			
+			// aapt resource value: 0x7f090017
+			public const int Right = 2131296279;
+			
+			// aapt resource value: 0x7f090015
+			public const int Rotate = 2131296277;
+			
+			// aapt resource value: 0x7f090022
+			public const int Second = 2131296290;
+			
+			// aapt resource value: 0x7f090004
+			public const int Single = 2131296260;
+			
+			// aapt resource value: 0x7f09000f
+			public const int Stack = 2131296271;
+			
+			// aapt resource value: 0x7f090010
+			public const int Stack100 = 2131296272;
+			
+			// aapt resource value: 0x7f090023
+			public const int TimeOfDay = 2131296291;
+			
+			// aapt resource value: 0x7f090019
+			public const int Top = 2131296281;
+			
+			// aapt resource value: 0x7f090013
+			public const int Visible = 2131296275;
+			
+			// aapt resource value: 0x7f090006
+			public const int Week = 2131296262;
+			
+			// aapt resource value: 0x7f090007
+			public const int Year = 2131296263;
+			
+			// aapt resource value: 0x7f090032
+			public const int areaText = 2131296306;
+			
+			// aapt resource value: 0x7f090027
+			public const int bottom = 2131296295;
+			
+			// aapt resource value: 0x7f090024
+			public const int center = 2131296292;
+			
+			// aapt resource value: 0x7f09003e
+			public const int chart_data_point_content_container = 2131296318;
+			
+			// aapt resource value: 0x7f090039
+			public const int chart_layout_root = 2131296313;
+			
+			// aapt resource value: 0x7f09002a
+			public const int chart_tooltip_category = 2131296298;
+			
+			// aapt resource value: 0x7f09003d
+			public const int chart_tooltip_pointer = 2131296317;
+			
+			// aapt resource value: 0x7f09002b
+			public const int chart_tooltip_value = 2131296299;
+			
+			// aapt resource value: 0x7f090033
+			public const int chart_trackball_category = 2131296307;
+			
+			// aapt resource value: 0x7f090035
+			public const int chart_trackball_value = 2131296309;
+			
+			// aapt resource value: 0x7f09002e
+			public const int closeText = 2131296302;
+			
+			// aapt resource value: 0x7f09003a
+			public const int emptyContent = 2131296314;
+			
+			// aapt resource value: 0x7f09002c
+			public const int highText = 2131296300;
+			
+			// aapt resource value: 0x7f090000
+			public const int horizontal = 2131296256;
+			
+			// aapt resource value: 0x7f090025
+			public const int left = 2131296293;
+			
+			// aapt resource value: 0x7f090036
+			public const int legendItemIconView = 2131296310;
+			
+			// aapt resource value: 0x7f090037
+			public const int legendItemTitleView = 2131296311;
+			
+			// aapt resource value: 0x7f09003c
+			public const int legendListView = 2131296316;
+			
+			// aapt resource value: 0x7f09002f
+			public const int lowText = 2131296303;
+			
+			// aapt resource value: 0x7f09002d
+			public const int openText = 2131296301;
+			
+			// aapt resource value: 0x7f09003b
+			public const int renderSurface = 2131296315;
+			
+			// aapt resource value: 0x7f090026
+			public const int right = 2131296294;
+			
+			// aapt resource value: 0x7f090029
+			public const int tooltip_content_container = 2131296297;
+			
+			// aapt resource value: 0x7f090028
+			public const int top = 2131296296;
+			
+			// aapt resource value: 0x7f090034
+			public const int trackball_points_list = 2131296308;
+			
+			// aapt resource value: 0x7f090001
+			public const int vertical = 2131296257;
+			
+			// aapt resource value: 0x7f090030
+			public const int xText = 2131296304;
+			
+			// aapt resource value: 0x7f090031
+			public const int yText = 2131296305;
 			
 			static Id()
 			{
@@ -80,7 +917,49 @@ namespace SampleLab.Droid
 		{
 			
 			// aapt resource value: 0x7f030000
-			public const int NativeAndroidLayout = 2130903040;
+			public const int default_tooltip_content = 2130903040;
+			
+			// aapt resource value: 0x7f030001
+			public const int default_tooltip_ohlc_content = 2130903041;
+			
+			// aapt resource value: 0x7f030002
+			public const int default_tooltip_scatter_bubble_content = 2130903042;
+			
+			// aapt resource value: 0x7f030003
+			public const int default_tooltip_scatter_content = 2130903043;
+			
+			// aapt resource value: 0x7f030004
+			public const int default_trackball_content = 2130903044;
+			
+			// aapt resource value: 0x7f030005
+			public const int default_trackball_item_content = 2130903045;
+			
+			// aapt resource value: 0x7f030006
+			public const int legend_item_view = 2130903046;
+			
+			// aapt resource value: 0x7f030007
+			public const int NativeAndroidLayout = 2130903047;
+			
+			// aapt resource value: 0x7f030008
+			public const int ohlc_trackball_item_content = 2130903048;
+			
+			// aapt resource value: 0x7f030009
+			public const int radchartbase = 2130903049;
+			
+			// aapt resource value: 0x7f03000a
+			public const int radlegendcontrol = 2130903050;
+			
+			// aapt resource value: 0x7f03000b
+			public const int range_trackball_item_content = 2130903051;
+			
+			// aapt resource value: 0x7f03000c
+			public const int tooltip_container = 2130903052;
+			
+			// aapt resource value: 0x7f03000d
+			public const int trackball_container = 2130903053;
+			
+			// aapt resource value: 0x7f03000e
+			public const int trial_message = 2130903054;
 			
 			static Layout()
 			{
@@ -92,11 +971,114 @@ namespace SampleLab.Droid
 			}
 		}
 		
+		public partial class String
+		{
+			
+			// aapt resource value: 0x7f050001
+			public const int ApplicationName = 2131034113;
+			
+			// aapt resource value: 0x7f050000
+			public const int Hello = 2131034112;
+			
+			// aapt resource value: 0x7f050002
+			public const int trial_message = 2131034114;
+			
+			// aapt resource value: 0x7f050003
+			public const int trial_message_caption = 2131034115;
+			
+			static String()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private String()
+			{
+			}
+		}
+		
 		public partial class Style
 		{
 			
-			// aapt resource value: 0x7f040000
-			public const int Mono_Android_Theme_Splash = 2130968576;
+			// aapt resource value: 0x7f070004
+			public const int AppBaseTheme = 2131165188;
+			
+			// aapt resource value: 0x7f070005
+			public const int AppTheme = 2131165189;
+			
+			// aapt resource value: 0x7f070006
+			public const int AxisStyle = 2131165190;
+			
+			// aapt resource value: 0x7f070009
+			public const int AxisStyle_LineAxisStyle = 2131165193;
+			
+			// aapt resource value: 0x7f070010
+			public const int AxisStyle_LineAxisStyle_CartesianAxisStyle = 2131165200;
+			
+			// aapt resource value: 0x7f070011
+			public const int AxisStyle_LineAxisStyle_CartesianAxisStyle_CategoricalAxisStyle = 2131165201;
+			
+			// aapt resource value: 0x7f070012
+			public const int AxisStyle_LineAxisStyle_CartesianAxisStyle_CategoricalAxisStyle_DateTimeCategoricalAxisStyle = 2131165202;
+			
+			// aapt resource value: 0x7f070013
+			public const int AxisStyle_LineAxisStyle_CartesianAxisStyle_CategoricalAxisStyle_TestDateTimeCategoricalAxisStyle = 2131165203;
+			
+			// aapt resource value: 0x7f070014
+			public const int AxisStyle_LineAxisStyle_CartesianAxisStyle_DateTimeContinuousAxisStyle = 2131165204;
+			
+			// aapt resource value: 0x7f070002
+			public const int CalendarDefaultStyle = 2131165186;
+			
+			// aapt resource value: 0x7f070015
+			public const int ChartAnnotationStyle = 2131165205;
+			
+			// aapt resource value: 0x7f070018
+			public const int ChartAnnotationStyle_CartesianCustomAnnotationStyle = 2131165208;
+			
+			// aapt resource value: 0x7f070016
+			public const int ChartAnnotationStyle_CartesianStrokedAnnotationStyle = 2131165206;
+			
+			// aapt resource value: 0x7f070017
+			public const int ChartAnnotationStyle_CartesianStrokedAnnotationStyle_CartesianPlotBandAnnotationStyle = 2131165207;
+			
+			// aapt resource value: 0x7f070008
+			public const int ChartSeriesStyle = 2131165192;
+			
+			// aapt resource value: 0x7f07000d
+			public const int ChartSeriesStyle_CategoricalSeriesStyle = 2131165197;
+			
+			// aapt resource value: 0x7f07000a
+			public const int ChartSeriesStyle_CategoricalSeriesStyle_BarSeriesStyle = 2131165194;
+			
+			// aapt resource value: 0x7f07000e
+			public const int ChartSeriesStyle_CategoricalSeriesStyle_CategoricalStrokedSeriesStyle = 2131165198;
+			
+			// aapt resource value: 0x7f07000f
+			public const int ChartSeriesStyle_CategoricalSeriesStyle_CategoricalStrokedSeriesStyle_AreaSeriesStyle = 2131165199;
+			
+			// aapt resource value: 0x7f07000b
+			public const int ChartSeriesStyle_CategoricalSeriesStyle_RangeBarSeriesStyle = 2131165195;
+			
+			// aapt resource value: 0x7f07000c
+			public const int ChartSeriesStyle_CategoricalSeriesStyle_TestBarSeriesStyle = 2131165196;
+			
+			// aapt resource value: 0x7f07001a
+			public const int Mono_Android_Theme_Splash = 2131165210;
+			
+			// aapt resource value: 0x7f070007
+			public const int RadChartBaseStyle = 2131165191;
+			
+			// aapt resource value: 0x7f070000
+			public const int RadScrollViewStyle = 2131165184;
+			
+			// aapt resource value: 0x7f070001
+			public const int RadScrollViewTheme = 2131165185;
+			
+			// aapt resource value: 0x7f070003
+			public const int Theme_CalendarTheme = 2131165187;
+			
+			// aapt resource value: 0x7f070019
+			public const int Theme_ChartTheme = 2131165209;
 			
 			static Style()
 			{
@@ -104,6 +1086,496 @@ namespace SampleLab.Droid
 			}
 			
 			private Style()
+			{
+			}
+		}
+		
+		public partial class Xml
+		{
+			
+			// aapt resource value: 0x7f040000
+			public const int chart_palettes_dark_selected = 2130968576;
+			
+			// aapt resource value: 0x7f040001
+			public const int chart_palettes_default_dark = 2130968577;
+			
+			// aapt resource value: 0x7f040002
+			public const int chart_palettes_default_light = 2130968578;
+			
+			// aapt resource value: 0x7f040003
+			public const int chart_palettes_light_selected = 2130968579;
+			
+			static Xml()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Xml()
+			{
+			}
+		}
+		
+		public partial class Styleable
+		{
+			
+			public static int[] AreaSeries = new int[] {
+					2130771997};
+			
+			// aapt resource value: 0
+			public const int AreaSeries_fillColor = 0;
+			
+			public static int[] Axis = new int[] {
+					2130771986,
+					2130771989,
+					2130771990,
+					2130771991,
+					2130771992,
+					2130771993,
+					2130771994,
+					2130772000,
+					2130772009,
+					2130772010,
+					2130772011,
+					2130772012,
+					2130772013,
+					2130772014,
+					2130772015,
+					2130772016};
+			
+			// aapt resource value: 12
+			public const int Axis_axisLabelFitMode = 12;
+			
+			// aapt resource value: 9
+			public const int Axis_axisLastLabelVisibility = 9;
+			
+			// aapt resource value: 13
+			public const int Axis_axisTitle = 13;
+			
+			// aapt resource value: 1
+			public const int Axis_labelColor = 1;
+			
+			// aapt resource value: 5
+			public const int Axis_labelFont = 5;
+			
+			// aapt resource value: 6
+			public const int Axis_labelFontStyle = 6;
+			
+			// aapt resource value: 7
+			public const int Axis_labelFormat = 7;
+			
+			// aapt resource value: 15
+			public const int Axis_labelInterval = 15;
+			
+			// aapt resource value: 3
+			public const int Axis_labelMargin = 3;
+			
+			// aapt resource value: 11
+			public const int Axis_labelOffset = 11;
+			
+			// aapt resource value: 8
+			public const int Axis_labelRotationAngle = 8;
+			
+			// aapt resource value: 2
+			public const int Axis_labelSize = 2;
+			
+			// aapt resource value: 4
+			public const int Axis_lineThickness = 4;
+			
+			// aapt resource value: 10
+			public const int Axis_majorTickOffset = 10;
+			
+			// aapt resource value: 0
+			public const int Axis_showLabels = 0;
+			
+			// aapt resource value: 14
+			public const int Axis_tickThickness = 14;
+			
+			public static int[] BarSeries = new int[] {
+					2130771995,
+					2130771996,
+					2130771997,
+					2130771998,
+					2130771999};
+			
+			// aapt resource value: 3
+			public const int BarSeries_areBarsRounded = 3;
+			
+			// aapt resource value: 2
+			public const int BarSeries_fillColor = 2;
+			
+			// aapt resource value: 4
+			public const int BarSeries_roundBarsRadius = 4;
+			
+			// aapt resource value: 0
+			public const int BarSeries_strokeColor = 0;
+			
+			// aapt resource value: 1
+			public const int BarSeries_strokeWidth = 1;
+			
+			public static int[] CalendarCellState = new int[] {
+					2130771974};
+			
+			// aapt resource value: 0
+			public const int CalendarCellState_state_calendar_cell_today = 0;
+			
+			public static int[] CalendarTheme = new int[] {
+					2130771984};
+			
+			// aapt resource value: 0
+			public const int CalendarTheme_calendarStyle = 0;
+			
+			public static int[] CartesianAxis = new int[] {
+					2130772019,
+					2130772020};
+			
+			// aapt resource value: 0
+			public const int CartesianAxis_horizontalLocation = 0;
+			
+			// aapt resource value: 1
+			public const int CartesianAxis_verticalLocation = 1;
+			
+			public static int[] CartesianCustomAnnotation = new int[] {
+					2130772027,
+					2130772028,
+					2130772029,
+					2130772030,
+					2130772031};
+			
+			// aapt resource value: 2
+			public const int CartesianCustomAnnotation_content = 2;
+			
+			// aapt resource value: 3
+			public const int CartesianCustomAnnotation_horizontalAlignment = 3;
+			
+			// aapt resource value: 0
+			public const int CartesianCustomAnnotation_horizontalOffset = 0;
+			
+			// aapt resource value: 4
+			public const int CartesianCustomAnnotation_verticalAlignment = 4;
+			
+			// aapt resource value: 1
+			public const int CartesianCustomAnnotation_verticalOffset = 1;
+			
+			public static int[] CartesianPlotBandAnnotation = new int[] {
+					2130771997};
+			
+			// aapt resource value: 0
+			public const int CartesianPlotBandAnnotation_fillColor = 0;
+			
+			public static int[] CartesianStrokedAnnotation = new int[] {
+					2130771995,
+					2130771996,
+					2130772026};
+			
+			// aapt resource value: 2
+			public const int CartesianStrokedAnnotation_label = 2;
+			
+			// aapt resource value: 0
+			public const int CartesianStrokedAnnotation_strokeColor = 0;
+			
+			// aapt resource value: 1
+			public const int CartesianStrokedAnnotation_strokeWidth = 1;
+			
+			public static int[] CategoricalAxis = new int[] {
+					2130771987,
+					2130771988,
+					2130772018};
+			
+			// aapt resource value: 0
+			public const int CategoricalAxis_gapLength = 0;
+			
+			// aapt resource value: 2
+			public const int CategoricalAxis_majorTickInterval = 2;
+			
+			// aapt resource value: 1
+			public const int CategoricalAxis_plotMode = 1;
+			
+			public static int[] CategoricalSeries = new int[] {
+					2130772008};
+			
+			// aapt resource value: 0
+			public const int CategoricalSeries_combineMode = 0;
+			
+			public static int[] CategoricalStrokedSeries = new int[] {
+					2130771995,
+					2130771996};
+			
+			// aapt resource value: 0
+			public const int CategoricalStrokedSeries_strokeColor = 0;
+			
+			// aapt resource value: 1
+			public const int CategoricalStrokedSeries_strokeWidth = 1;
+			
+			public static int[] ChartAnnotation = new int[] {
+					2130771985};
+			
+			// aapt resource value: 0
+			public const int ChartAnnotation_clipToPlotArea = 0;
+			
+			public static int[] ChartSeries = new int[] {
+					2130771985,
+					2130771986,
+					2130771989,
+					2130771990,
+					2130771993,
+					2130771994,
+					2130772000};
+			
+			// aapt resource value: 0
+			public const int ChartSeries_clipToPlotArea = 0;
+			
+			// aapt resource value: 2
+			public const int ChartSeries_labelColor = 2;
+			
+			// aapt resource value: 4
+			public const int ChartSeries_labelFont = 4;
+			
+			// aapt resource value: 5
+			public const int ChartSeries_labelFontStyle = 5;
+			
+			// aapt resource value: 6
+			public const int ChartSeries_labelFormat = 6;
+			
+			// aapt resource value: 3
+			public const int ChartSeries_labelSize = 3;
+			
+			// aapt resource value: 1
+			public const int ChartSeries_showLabels = 1;
+			
+			public static int[] ChartTheme = new int[] {
+					2130772032,
+					2130772033,
+					2130772034,
+					2130772035,
+					2130772036,
+					2130772037,
+					2130772038,
+					2130772039,
+					2130772040,
+					2130772041,
+					2130772042,
+					2130772043,
+					2130772044,
+					2130772045,
+					2130772046,
+					2130772047,
+					2130772048,
+					2130772049};
+			
+			// aapt resource value: 12
+			public const int ChartTheme_AreaSeriesStyle = 12;
+			
+			// aapt resource value: 0
+			public const int ChartTheme_AxisStyle = 0;
+			
+			// aapt resource value: 8
+			public const int ChartTheme_BarSeriesStyle = 8;
+			
+			// aapt resource value: 1
+			public const int ChartTheme_CartesianAxisStyle = 1;
+			
+			// aapt resource value: 16
+			public const int ChartTheme_CartesianCustomAnnotationStyle = 16;
+			
+			// aapt resource value: 15
+			public const int ChartTheme_CartesianPlotBandAnnotationStyle = 15;
+			
+			// aapt resource value: 14
+			public const int ChartTheme_CartesianStrokedAnnotationStyle = 14;
+			
+			// aapt resource value: 2
+			public const int ChartTheme_CategoricalAxisStyle = 2;
+			
+			// aapt resource value: 10
+			public const int ChartTheme_CategoricalSeriesStyle = 10;
+			
+			// aapt resource value: 11
+			public const int ChartTheme_CategoricalStrokedSeriesStyle = 11;
+			
+			// aapt resource value: 13
+			public const int ChartTheme_ChartAnnotationStyle = 13;
+			
+			// aapt resource value: 6
+			public const int ChartTheme_ChartSeriesStyle = 6;
+			
+			// aapt resource value: 3
+			public const int ChartTheme_DateTimeCategoricalAxisStyle = 3;
+			
+			// aapt resource value: 4
+			public const int ChartTheme_DateTimeContinuousAxisStyle = 4;
+			
+			// aapt resource value: 7
+			public const int ChartTheme_LineAxisStyle = 7;
+			
+			// aapt resource value: 5
+			public const int ChartTheme_RadChartBaseStyle = 5;
+			
+			// aapt resource value: 9
+			public const int ChartTheme_RangeBarSeriesStyle = 9;
+			
+			// aapt resource value: 17
+			public const int ChartTheme_TestBarSeriesStyle = 17;
+			
+			public static int[] DateTimeCategoricalAxis = new int[] {
+					2130772021,
+					2130772022};
+			
+			// aapt resource value: 0
+			public const int DateTimeCategoricalAxis_dateFormat = 0;
+			
+			// aapt resource value: 1
+			public const int DateTimeCategoricalAxis_dateTimeComponent = 1;
+			
+			public static int[] DateTimeContinuousAxis = new int[] {
+					2130771987,
+					2130771988,
+					2130772023,
+					2130772024,
+					2130772025};
+			
+			// aapt resource value: 0
+			public const int DateTimeContinuousAxis_gapLength = 0;
+			
+			// aapt resource value: 3
+			public const int DateTimeContinuousAxis_majorStep = 3;
+			
+			// aapt resource value: 4
+			public const int DateTimeContinuousAxis_majorStepUnit = 4;
+			
+			// aapt resource value: 2
+			public const int DateTimeContinuousAxis_maximumTicks = 2;
+			
+			// aapt resource value: 1
+			public const int DateTimeContinuousAxis_plotMode = 1;
+			
+			public static int[] LineAxis = new int[] {
+					2130772017};
+			
+			// aapt resource value: 0
+			public const int LineAxis_lineColor = 0;
+			
+			public static int[] PointerLayout = new int[] {
+					2130771968,
+					2130771969,
+					2130771970};
+			
+			// aapt resource value: 2
+			public const int PointerLayout_pointerFill = 2;
+			
+			// aapt resource value: 1
+			public const int PointerLayout_pointerMargin = 1;
+			
+			// aapt resource value: 0
+			public const int PointerLayout_pointerSize = 0;
+			
+			public static int[] RadCalendarView = new int[] {
+					2130771975,
+					2130771976,
+					2130771977,
+					2130771978,
+					2130771979,
+					2130771980,
+					2130771981,
+					2130771982,
+					2130771983};
+			
+			// aapt resource value: 0
+			public const int RadCalendarView_calendarBackground = 0;
+			
+			// aapt resource value: 6
+			public const int RadCalendarView_displayMode = 6;
+			
+			// aapt resource value: 8
+			public const int RadCalendarView_isYearModeCompact = 8;
+			
+			// aapt resource value: 5
+			public const int RadCalendarView_selectionMode = 5;
+			
+			// aapt resource value: 4
+			public const int RadCalendarView_showCellDecorations = 4;
+			
+			// aapt resource value: 2
+			public const int RadCalendarView_showDayNames = 2;
+			
+			// aapt resource value: 3
+			public const int RadCalendarView_showGridLines = 3;
+			
+			// aapt resource value: 1
+			public const int RadCalendarView_showTitle = 1;
+			
+			// aapt resource value: 7
+			public const int RadCalendarView_weekNumberDisplayMode = 7;
+			
+			public static int[] RadChartViewBase = new int[] {
+					2130772002,
+					2130772003,
+					2130772004,
+					2130772005,
+					2130772006,
+					2130772007};
+			
+			// aapt resource value: 3
+			public const int RadChartViewBase_clipToBounds = 3;
+			
+			// aapt resource value: 4
+			public const int RadChartViewBase_emptyContent = 4;
+			
+			// aapt resource value: 2
+			public const int RadChartViewBase_maxZoom = 2;
+			
+			// aapt resource value: 5
+			public const int RadChartViewBase_palette = 5;
+			
+			// aapt resource value: 0
+			public const int RadChartViewBase_pan = 0;
+			
+			// aapt resource value: 1
+			public const int RadChartViewBase_zoom = 1;
+			
+			public static int[] RadScrollView = new int[] {
+					2130771971,
+					2130771972};
+			
+			// aapt resource value: 0
+			public const int RadScrollView_fillViewport = 0;
+			
+			// aapt resource value: 1
+			public const int RadScrollView_scrollMode = 1;
+			
+			public static int[] RadScrollViewTheme = new int[] {
+					2130771973};
+			
+			// aapt resource value: 0
+			public const int RadScrollViewTheme_radScrollViewStyle = 0;
+			
+			public static int[] RangeBarSeries = new int[] {
+					2130771995,
+					2130771996,
+					2130771997,
+					2130771998,
+					2130771999};
+			
+			// aapt resource value: 3
+			public const int RangeBarSeries_areBarsRounded = 3;
+			
+			// aapt resource value: 2
+			public const int RangeBarSeries_fillColor = 2;
+			
+			// aapt resource value: 4
+			public const int RangeBarSeries_roundBarsRadius = 4;
+			
+			// aapt resource value: 0
+			public const int RangeBarSeries_strokeColor = 0;
+			
+			// aapt resource value: 1
+			public const int RangeBarSeries_strokeWidth = 1;
+			
+			static Styleable()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Styleable()
 			{
 			}
 		}

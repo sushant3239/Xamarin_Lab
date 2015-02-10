@@ -1,4 +1,5 @@
 ﻿
+using SampleLab.Infrastructure.Storage;
 using SampleLab.Model;
 using SampleLab.PhoneService;
 using System;
@@ -12,16 +13,19 @@ namespace SampleLab.ViewModel
     public class FilterByEngagementsViewModel : ViewModelBase
     {
         private INavigationService _navigationService;
+        private ISessionStorageManager _sessionStorage;
 
         private List<string> _listItems;
         private List<string> _selectedListItems;
         private FliterViewModel _filterViewModel;
         private List<Engagement> _engagements;
 
-        public FilterByEngagementsViewModel(IPhoneService phoneService, FliterViewModel filterViewModel)
+        public FilterByEngagementsViewModel(IPhoneService phoneService, FliterViewModel filterViewModel, ISessionStorageManager sessionStorage)
         {
             _navigationService = phoneService.NavigationService;
+            _sessionStorage = sessionStorage;
             _filterViewModel = filterViewModel;
+
             SelectedListItems = new List<string>();
             DoneCommand = new Command(SelctionComplete);
 
@@ -35,21 +39,12 @@ namespace SampleLab.ViewModel
 
         private void SelctionComplete()
         {
-            _filterViewModel.EnagementsByEngagementNames = new List<Engagement>();
-            if (_engagements != null)
-            {
-                foreach (var engagementName in SelectedListItems)
-                {
-                    foreach (var enagement in _engagements)
-                    {
-                        if (enagement.Name.Equals(engagementName))
-                        {
-                            _filterViewModel.EnagementsByEngagementNames.Add(enagement);
-                            break;
-                        }
-                    }
-                }
-            }
+            var result = (from e in _engagements
+                          join se in SelectedListItems
+                          on e.Name equals se
+                          select e).ToList<Engagement>();
+
+            _filterViewModel.EnagementsByEngagementNames = result;
         }
 
         public ICommand DoneCommand { get; private set; }

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Application xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="SampleLab.App"
+    xmlns:converters="clr-namespace:SampleLab.Converters;assembly=SampleLab">
+
+  <Application.Resources>
+    <ResourceDictionary>
+      <Style x:Key="TestStyle" TargetType="Label">
+        <Setter PropertyType="FontSize" Value="25"/>
+      </Style>
+    </ResourceDictionary>
+  </Application.Resources>
+
+</Application>

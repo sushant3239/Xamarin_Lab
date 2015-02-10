@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SampleLab.Pages.ChartsTest"
+             xmlns:controls="clr-namespace:SampleLab.CustomControls;assembly=SampleLab"
+             xmlns:telrikCharts="clr-namespace:Telerik.XamarinForms.Chart;assembly=Telerik.XamarinForms.Chart">
+  <Grid BackgroundColor="White">
+    <Grid.RowDefinitions>
+      <RowDefinition Height="Auto"/>
+      <RowDefinition Height="Auto"/>
+      <RowDefinition Height="Auto"/>
+      <RowDefinition Height="Auto"/>
+      <RowDefinition Height="Auto"/>
+      <RowDefinition Height="Auto"/>
+    </Grid.RowDefinitions>
+    <!--<controls:EYLabel Text="COCA COLA CHICAGO BOTTLING INC. \n BOTTLING  DISTRIBUTION, OCT-DEC-2014" EYLabelMargin="30,30,30,30"/>-->
+    <Grid Padding="20,20,0,0">
+      <Label Text="COCA COLA CHICAGO BOTTLING INC. \\n BOTTLING  DISTRIBUTION, OCT-DEC-2014"/>
+    </Grid>
+
+    <Grid Padding="20,0,0,5" Grid.Row="1">
+      <Label Text="Q1 Quarterly Report 2014 Key \\n Data Overall Revenue" />
+    </Grid>
+
+    <Grid Grid.Row="2">
+      <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="*"/>
+        <ColumnDefinition Width="*"/>
+        <ColumnDefinition Width="*"/>
+      </Grid.ColumnDefinitions>
+      <Label Text="14 Days" HorizontalOptions="Center"/>
+      <Label Text="4 ╚" Grid.Column="1" HorizontalOptions="Center"/>
+      <Label Text="½" Grid.Column="2" HorizontalOptions="Center"/>
+    </Grid>
+
+    <Grid Grid.Row="3">
+      <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="*"/>
+        <ColumnDefinition Width="Auto"/>
+      </Grid.ColumnDefinitions>
+
+      <StackLayout Grid.Column="1">
+        <StackLayout Padding="0,5,30,0">
+          <Label Text="TOTAL TASKS"/>
+          <Label Text="148"/>
+        </StackLayout>
+        <StackLayout Padding="0,5,30,0">
+          <Label Text="REPORT DATE:"/>
+          <Label Text="10/24/2014"/>
+        </StackLayout>
+        <StackLayout Padding="0,5 ,30,0">
+          <Label Text="TEAM MEMBER:"/>
+          <Label Text="8"/>
+        </StackLayout>
+      </StackLayout>
+
+    </Grid>
+
+    <telrikCharts:RadCartesianChart Grid.Row="4">
+
+      <telrikCharts:RadCartesianChart.VerticalAxis>
+        <telrikCharts:NumericalAxis LabelFitMode="MultiLine"
+            ShowLabels="false" LineColor="Transparent" MajorTickBackgroundColor="Transparent"/>
+      </telrikCharts:RadCartesianChart.VerticalAxis>
+
+      <telrikCharts:RadCartesianChart.HorizontalAxis>
+        <telrikCharts:CategoricalAxis LabelFitMode="MultiLine"
+            LineColor="Transparent" MajorTickBackgroundColor="Transparent"/>
+      </telrikCharts:RadCartesianChart.HorizontalAxis>
+
+      <telrikCharts:RadCartesianChart.Grid>
+        <telrikCharts:CartesianChartGrid MajorLineColor="Transparent"/>
+      </telrikCharts:RadCartesianChart.Grid>
+
+      <telrikCharts:RadCartesianChart.Series>
+        <telrikCharts:BarSeries CombineMode="Cluster" ShowLabels="true" x:Name="series1">
+          <telrikCharts:BarSeries.ValueBinding>
+            <telrikCharts:PropertyNameDataPointBinding  PropertyName="Value"/>
+          </telrikCharts:BarSeries.ValueBinding>
+          <telrikCharts:BarSeries.CategoryBinding>
+            <telrikCharts:PropertyNameDataPointBinding  PropertyName="Category"/>
+          </telrikCharts:BarSeries.CategoryBinding>
+        </telrikCharts:BarSeries>
+        <telrikCharts:BarSeries CombineMode="Cluster" ShowLabels="true" x:Name="series2">
+          <telrikCharts:BarSeries.ValueBinding>
+            <telrikCharts:PropertyNameDataPointBinding  PropertyName="Value"/>
+          </telrikCharts:BarSeries.ValueBinding>
+          <telrikCharts:BarSeries.CategoryBinding>
+            <telrikCharts:PropertyNameDataPointBinding  PropertyName="Category"/>
+          </telrikCharts:BarSeries.CategoryBinding>
+        </telrikCharts:BarSeries>
+      </telrikCharts:RadCartesianChart.Series>
+
+    </telrikCharts:RadCartesianChart>
+
+
+  </Grid>
+</ContentPage>

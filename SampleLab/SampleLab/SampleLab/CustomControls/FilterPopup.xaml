@@ -3,51 +3,59 @@
   xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
   x:Class="SampleLab.CustomControls.FilterPopup"
   xmlns:common="clr-namespace:SampleLab;assembly=SampleLab"
-  xmlns:controls="clr-namespace:SampleLab.CustomControls;assembly=SampleLab">
+  xmlns:controls="clr-namespace:SampleLab.CustomControls;assembly=SampleLab"
+  xmlns:b="clr-namespace:Xamarin.Behaviors;assembly=Xamarin.Behaviors">
 
-  <Grid BindingContext="{x:Static common:AppResources.ViewModelLocator}">
+    <Grid BindingContext="{x:Static common:AppResources.ViewModelLocator}">
 
-    <StackLayout x:Name="RootLayout" BackgroundColor="#FFFFFF" BindingContext="{Binding FliterViewModel}">
-      
-      <Grid BackgroundColor="#F0F0F0">
-        <Grid.RowDefinitions>
-          <RowDefinition Height="50"/>
-        </Grid.RowDefinitions>
-        <Grid.ColumnDefinitions>
-          <ColumnDefinition Width="*"/>
-          <ColumnDefinition Width="*"/>
-          <ColumnDefinition Width="*"/>
-        </Grid.ColumnDefinitions>
-        <controls:TapableLabel Text="Clear All" Grid.Column="0" HorizontalOptions="Center" VerticalOptions="Center"/>
-        <controls:TapableLabel Text="Filters" Grid.Column="1" HorizontalOptions="Center" VerticalOptions="Center"/>
-        <controls:TapableLabel Text="Apply" Grid.Column="2" HorizontalOptions="Center" VerticalOptions="Center"/>
-      </Grid>
+        <StackLayout x:Name="RootLayout" BackgroundColor="#FFFFFF" BindingContext="{Binding FliterViewModel}">
 
-      <StackLayout Padding="10,0,10,15" Grid.Row="1">
+            <Grid BackgroundColor="#F0F0F0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="50"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <controls:TapableLabel Text="Clear All" Grid.Column="0" HorizontalOptions="Center" VerticalOptions="Center"/>
+                <controls:TapableLabel Text="Filters" Grid.Column="1" HorizontalOptions="Center" VerticalOptions="Center"/>
+                <controls:TapableLabel Text="Apply" Grid.Column="2" HorizontalOptions="Center" VerticalOptions="Center"/>
+            </Grid>
 
-        <Label Text="Due Date" TextColor="#C3E0F4"/>
-        <controls:BindableRadioGroup x:Name="GroupDueDate"
-            SelectedIndex="{Binding DueDateGroupSelectedIndex,Mode=OneWayToSource}"/>
+            <StackLayout Padding="10,0,10,15" Grid.Row="1">
 
-        <Label Text="Review Note" TextColor="#C3E0F4"/>
-        <controls:BindableRadioGroup x:Name="GroupReviewNote"
-            SelectedIndex="{Binding ReviewNoteSelectedIndex,Mode=OneWayToSource}"/>
+                <Label Text="Due Date" TextColor="#C3E0F4"/>
+                <controls:SegmentControl x:Name="GroupDueDate" TintColor="#EDEDED">
+                    <b:Interaction.Behaviors>
+                        <b:BehaviorCollection>
+                            <!--<b:EventToCommand EventName="SelectedSegmentChanged" Command="{Binding DueDateSelectedCommanmd}" CommandParameter="1" />-->
+                            <b:EventToCommand
+                                EventName="SelectedSegmentChanged"
+                                Command="{Binding DueDateSelectedCommanmd}"
+                                CommandParameter="1" />
+                        </b:BehaviorCollection>
+                    </b:Interaction.Behaviors>
+                </controls:SegmentControl>
 
-        <Label Text="Audit Phase" TextColor="#C3E0F4"/>
-        <controls:BindableRadioGroup x:Name="GroupAuditPhase"
-            SelectedIndex="{Binding AuditPhaseSelectedIndex,Mode=OneWayToSource}"/>
+                <Label Text="Review Note" TextColor="#C3E0F4"/>
+                <controls:SegmentControl x:Name="GroupReviewNote" TintColor="#EDEDED"/>
 
-        <Frame OutlineColor="Black" Padding="20,0,0,5">
-          <controls:TapableLabel Text="Signed-off By                                   >" TextColor="#C3E0F4"/>
-        </Frame>
+                <Label Text="Audit Phase" TextColor="#C3E0F4"/>
+                <controls:SegmentControl x:Name="GroupAuditPhase" TintColor="#EDEDED"/>
 
-        <Frame OutlineColor="Black" Padding="20,0,0,5">
-          <controls:TapableLabel Text="Engagement                                      >"  TextColor="#C3E0F4" x:Name="LabelEngagement"/>
-        </Frame>
+                <Frame OutlineColor="Black" Padding="20,0,0,5">
+                    <controls:TapableLabel Text="Signed-off By                                   >" TextColor="#C3E0F4"/>
+                </Frame>
 
-      </StackLayout>
+                <Frame OutlineColor="Black" Padding="20,0,0,5">
+                    <controls:TapableLabel Text="Engagement                                      >"  TextColor="#C3E0F4" x:Name="LabelEngagement"/>
+                </Frame>
 
-    </StackLayout>
-  </Grid>
+            </StackLayout>
+
+        </StackLayout>
+    </Grid>
 
 </Grid>

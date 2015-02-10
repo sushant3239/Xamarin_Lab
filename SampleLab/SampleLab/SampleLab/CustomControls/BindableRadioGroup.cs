@@ -53,12 +53,8 @@ namespace SampleLab.CustomControls
                     rad.Text = item.ToString();
                     rad.ViewId = radIndex;
 
-                    rad.CheckedChanged += radButtons.OnCheckedChanged;
-
-                    //radButtons.rads.Add(rad);
-                    radButtons.ColumnDefinitions.Add(new ColumnDefinition ());
-                    rad.SetValue(Grid.ColumnProperty, radIndex);
-                    radButtons.Children.Add(rad);
+                    rad.CheckedChanged += radButtons.OnCheckedChanged;                   
+                    radButtons.Children.Add(rad,radIndex,0);
                     radIndex++;
                 }
             }

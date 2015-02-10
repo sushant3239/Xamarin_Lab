@@ -1,9 +1,12 @@
 ﻿
+using SampleLab.CustomCommand;
 using SampleLab.Model;
 using SampleLab.PhoneService;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Windows.Input;
+using Xamarin.Forms;
 
 namespace SampleLab.ViewModel
 {
@@ -17,14 +20,16 @@ namespace SampleLab.ViewModel
 
         private List<Engagement> _engagementsByDueDate;
         private List<Engagement> _engagementsByReviewNotes;
-        private List<Engagement> _engagementsByAuditPhase;        
+        private List<Engagement> _engagementsByAuditPhase;
         private List<Engagement> _engagements;
 
         public FliterViewModel(IPhoneService phoneService)
         {
             _engagements = DummyData.GetDummyData();
             _navigationService = phoneService.NavigationService;
-        }
+
+            DueDateSelectedCommanmd = new Command<int>(DueDateSelected);
+        }       
 
         public int DueDateGroupSelectedIndex
         {
@@ -58,6 +63,13 @@ namespace SampleLab.ViewModel
         }
 
         public List<Engagement> EnagementsByEngagementNames { get; set; }
+
+        public ICommand DueDateSelectedCommanmd { get; private set; }
+
+        private void DueDateSelected(int obj)
+        {
+            
+        }
 
         #region"By Due Date"
 

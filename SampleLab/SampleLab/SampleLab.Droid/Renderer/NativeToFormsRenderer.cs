@@ -16,7 +16,7 @@ namespace SampleLab.Droid.Renderer
         protected override void OnElementChanged(ElementChangedEventArgs<Page> e)
         {
             base.OnElementChanged(e);
-
+            
             var page = e.NewElement as NativeToForms;
             var activity = Context as Activity;
 

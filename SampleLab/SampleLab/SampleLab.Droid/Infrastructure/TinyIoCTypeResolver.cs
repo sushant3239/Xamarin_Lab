@@ -6,6 +6,7 @@ using Xamarin.Forms;
 using System.Linq;
 using SampleLab.PhoneService;
 using SampleLab.Device;
+using SampleLab.Infrastructure.Storage;
 
 [assembly: Dependency(typeof(SampleLab.Droid.Infrastructure.TinyIoCTypeResolver))]
 namespace SampleLab.Droid.Infrastructure
@@ -31,9 +32,12 @@ namespace SampleLab.Droid.Infrastructure
      
             _kernel.AutoRegister(labAssemblies);
 
-            _kernel.Register<IPhoneService>(IphoneServiceFactory).AsSingleton();
-            _kernel.Register<IDevice>(IDeviceServiceFactory).AsSingleton();
-        }
+            _kernel.Register<DroidDevice>().AsSingleton();
+            _kernel.Register<DroidPhoneService>().AsSingleton();
+
+            _kernel.Register<IPhoneService>(IphoneServiceFactory);
+            _kernel.Register<IDevice>(IDeviceServiceFactory);
+        }      
 
         private IDevice IDeviceServiceFactory(TinyIoCContainer arg1, NamedParameterOverloads arg2)
         {

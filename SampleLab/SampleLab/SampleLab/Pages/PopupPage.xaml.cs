@@ -8,7 +8,7 @@ namespace SampleLab.Pages
     {
         public PopupPage()
         {
-            InitializeComponent();
+            InitializeComponent();            
         }        
     }
 }
