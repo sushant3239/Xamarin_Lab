@@ -1,98 +1,138 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="SampleLab.Pages.ChartsTest"
-             xmlns:controls="clr-namespace:SampleLab.CustomControls;assembly=SampleLab"
-             xmlns:telrikCharts="clr-namespace:Telerik.XamarinForms.Chart;assembly=Telerik.XamarinForms.Chart">
-  <Grid BackgroundColor="White">
-    <Grid.RowDefinitions>
-      <RowDefinition Height="Auto"/>
-      <RowDefinition Height="Auto"/>
-      <RowDefinition Height="Auto"/>
-      <RowDefinition Height="Auto"/>
-      <RowDefinition Height="Auto"/>
-      <RowDefinition Height="Auto"/>
-    </Grid.RowDefinitions>
-    <!--<controls:EYLabel Text="COCA COLA CHICAGO BOTTLING INC. \n BOTTLING  DISTRIBUTION, OCT-DEC-2014" EYLabelMargin="30,30,30,30"/>-->
-    <Grid Padding="20,20,0,0">
-      <Label Text="COCA COLA CHICAGO BOTTLING INC. \\n BOTTLING  DISTRIBUTION, OCT-DEC-2014"/>
-    </Grid>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            x:Class="SampleLab.Pages.ChartsTest"
+            xmlns:common="clr-namespace:SampleLab;assembly=SampleLab"
+            xmlns:controls="clr-namespace:SampleLab.CustomControls;assembly=SampleLab"
+            xmlns:telrikCharts="clr-namespace:Telerik.XamarinForms.Chart;assembly=Telerik.XamarinForms.Chart">
 
-    <Grid Padding="20,0,0,5" Grid.Row="1">
-      <Label Text="Q1 Quarterly Report 2014 Key \\n Data Overall Revenue" />
-    </Grid>
+    <TabbedPage.Resources>
+        <ResourceDictionary>
+            <Style x:Key="HeaderTextStyle" TargetType="Label">
+                <Setter Property="TextColor" Value="#A5C0D8"/>
+                <Setter Property="FontSize" Value="Small"/>
+            </Style>
+            <Style TargetType="Label">
+                <Setter Property="TextColor" Value="Black"/>
+                <Setter Property="FontSize" Value="Small"/>
+            </Style>
+        </ResourceDictionary>
+    </TabbedPage.Resources>
 
-    <Grid Grid.Row="2">
-      <Grid.ColumnDefinitions>
-        <ColumnDefinition Width="*"/>
-        <ColumnDefinition Width="*"/>
-        <ColumnDefinition Width="*"/>
-      </Grid.ColumnDefinitions>
-      <Label Text="14 Days" HorizontalOptions="Center"/>
-      <Label Text="4 ╚" Grid.Column="1" HorizontalOptions="Center"/>
-      <Label Text="½" Grid.Column="2" HorizontalOptions="Center"/>
-    </Grid>
+    <TabbedPage.Children>
 
-    <Grid Grid.Row="3">
-      <Grid.ColumnDefinitions>
-        <ColumnDefinition Width="*"/>
-        <ColumnDefinition Width="Auto"/>
-      </Grid.ColumnDefinitions>
+        <ContentPage Title="TASK" BindingContext="{x:Static common:AppResources.ViewModelLocator}">       
+            <ScrollView>
+                <Grid BackgroundColor="White" Padding="20,0,20,0" RowSpacing="0" BindingContext="{Binding ChartViewModel}">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+                    <!--<controls:EYLabel Text="COCA COLA CHICAGO BOTTLING INC. \n BOTTLING  DISTRIBUTION, OCT-DEC-2014" EYLabelMargin="30,30,30,30"/>-->
 
-      <StackLayout Grid.Column="1">
-        <StackLayout Padding="0,5,30,0">
-          <Label Text="TOTAL TASKS"/>
-          <Label Text="148"/>
-        </StackLayout>
-        <StackLayout Padding="0,5,30,0">
-          <Label Text="REPORT DATE:"/>
-          <Label Text="10/24/2014"/>
-        </StackLayout>
-        <StackLayout Padding="0,5 ,30,0">
-          <Label Text="TEAM MEMBER:"/>
-          <Label Text="8"/>
-        </StackLayout>
-      </StackLayout>
+                    <Label Text="COCA COLA CHICAGO BOTTLING INC.\nBOTTLING  DISTRIBUTION, OCT-DEC-2014"  Style="{StaticResource HeaderTextStyle}"/>
+                    <Label Text="Q1 Quarterly Report 2014 Key \\n Data Overall Revenue" Grid.Row="1"/>
 
-    </Grid>
+                    <Grid Grid.Row="2">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <Label Text="14 Days" HorizontalOptions="Center"/>
+                        <Label Text="4 ╚" Grid.Column="1" HorizontalOptions="Center"/>
+                        <Label Text="½" Grid.Column="2" HorizontalOptions="Center"/>
+                    </Grid>
 
-    <telrikCharts:RadCartesianChart Grid.Row="4">
+                    <Grid Grid.Row="3">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="Auto"/>
+                        </Grid.ColumnDefinitions>
 
-      <telrikCharts:RadCartesianChart.VerticalAxis>
-        <telrikCharts:NumericalAxis LabelFitMode="MultiLine"
-            ShowLabels="false" LineColor="Transparent" MajorTickBackgroundColor="Transparent"/>
-      </telrikCharts:RadCartesianChart.VerticalAxis>
+                        <controls:DoughnutView  MaxValue = "200" Progress="20" HorizontalOptions="Start"/> 
+                        <StackLayout Grid.Column="1">
+                            <StackLayout Spacing="0">
+                                <Label Text="TOTAL TASKS" Style="{StaticResource HeaderTextStyle}"/>
+                                <Label Text="148"/>
+                            </StackLayout>
+                            <StackLayout Spacing="0">
+                                <Label Text="REPORT DATE:" Style="{StaticResource HeaderTextStyle}"/>
+                                <Label Text="10/24/2014"/>
+                            </StackLayout>
+                            <StackLayout Spacing="0">
+                                <Label Text="TEAM MEMBER:" Style="{StaticResource HeaderTextStyle}"/>
+                                <Label Text="8"/>
+                            </StackLayout>
+                        </StackLayout>
 
-      <telrikCharts:RadCartesianChart.HorizontalAxis>
-        <telrikCharts:CategoricalAxis LabelFitMode="MultiLine"
-            LineColor="Transparent" MajorTickBackgroundColor="Transparent"/>
-      </telrikCharts:RadCartesianChart.HorizontalAxis>
+                    </Grid>
 
-      <telrikCharts:RadCartesianChart.Grid>
-        <telrikCharts:CartesianChartGrid MajorLineColor="Transparent"/>
-      </telrikCharts:RadCartesianChart.Grid>
+                    <telrikCharts:RadCartesianChart Grid.Row="4" VerticalOptions="End">
 
-      <telrikCharts:RadCartesianChart.Series>
-        <telrikCharts:BarSeries CombineMode="Cluster" ShowLabels="true" x:Name="series1">
-          <telrikCharts:BarSeries.ValueBinding>
-            <telrikCharts:PropertyNameDataPointBinding  PropertyName="Value"/>
-          </telrikCharts:BarSeries.ValueBinding>
-          <telrikCharts:BarSeries.CategoryBinding>
-            <telrikCharts:PropertyNameDataPointBinding  PropertyName="Category"/>
-          </telrikCharts:BarSeries.CategoryBinding>
-        </telrikCharts:BarSeries>
-        <telrikCharts:BarSeries CombineMode="Cluster" ShowLabels="true" x:Name="series2">
-          <telrikCharts:BarSeries.ValueBinding>
-            <telrikCharts:PropertyNameDataPointBinding  PropertyName="Value"/>
-          </telrikCharts:BarSeries.ValueBinding>
-          <telrikCharts:BarSeries.CategoryBinding>
-            <telrikCharts:PropertyNameDataPointBinding  PropertyName="Category"/>
-          </telrikCharts:BarSeries.CategoryBinding>
-        </telrikCharts:BarSeries>
-      </telrikCharts:RadCartesianChart.Series>
+                        <telrikCharts:RadCartesianChart.VerticalAxis>
+                            <telrikCharts:NumericalAxis LabelFitMode="MultiLine"
+                    ShowLabels="false" LineColor="Transparent" MajorTickBackgroundColor="Transparent"/>
+                        </telrikCharts:RadCartesianChart.VerticalAxis>
 
-    </telrikCharts:RadCartesianChart>
+                        <telrikCharts:RadCartesianChart.HorizontalAxis>
+                            <telrikCharts:CategoricalAxis LabelFitMode="MultiLine"
+                    LineColor="Transparent" MajorTickBackgroundColor="Transparent"/>
+                        </telrikCharts:RadCartesianChart.HorizontalAxis>
 
+                        <telrikCharts:RadCartesianChart.Grid>
+                            <telrikCharts:CartesianChartGrid MajorLineColor="Transparent"/>
+                        </telrikCharts:RadCartesianChart.Grid>
 
-  </Grid>
-</ContentPage>
+                        <telrikCharts:RadCartesianChart.Series>
+                            <telrikCharts:BarSeries CombineMode="Cluster" ShowLabels="true" ItemsSource="{Binding Series1}">
+                                <telrikCharts:BarSeries.ValueBinding>
+                                    <telrikCharts:PropertyNameDataPointBinding  PropertyName="Value"/>
+                                </telrikCharts:BarSeries.ValueBinding>
+                                <telrikCharts:BarSeries.CategoryBinding>
+                                    <telrikCharts:PropertyNameDataPointBinding  PropertyName="Category"/>
+                                </telrikCharts:BarSeries.CategoryBinding>
+                            </telrikCharts:BarSeries>
+                            <telrikCharts:BarSeries CombineMode="Cluster" ShowLabels="true" ItemsSource="{Binding Series2}">
+                                <telrikCharts:BarSeries.ValueBinding>
+                                    <telrikCharts:PropertyNameDataPointBinding  PropertyName="Value"/>
+                                </telrikCharts:BarSeries.ValueBinding>
+                                <telrikCharts:BarSeries.CategoryBinding>
+                                    <telrikCharts:PropertyNameDataPointBinding  PropertyName="Category"/>
+                                </telrikCharts:BarSeries.CategoryBinding>
+                            </telrikCharts:BarSeries>
+                            <telrikCharts:BarSeries CombineMode="Cluster" ShowLabels="true" ItemsSource="{Binding Series3}">
+                                <telrikCharts:BarSeries.ValueBinding>
+                                    <telrikCharts:PropertyNameDataPointBinding  PropertyName="Value"/>
+                                </telrikCharts:BarSeries.ValueBinding>
+                                <telrikCharts:BarSeries.CategoryBinding>
+                                    <telrikCharts:PropertyNameDataPointBinding  PropertyName="Category"/>
+                                </telrikCharts:BarSeries.CategoryBinding>
+                            </telrikCharts:BarSeries>
+                            <telrikCharts:BarSeries CombineMode="Cluster" ShowLabels="true" ItemsSource="{Binding Series4}">
+                                <telrikCharts:BarSeries.ValueBinding>
+                                    <telrikCharts:PropertyNameDataPointBinding  PropertyName="Value"/>
+                                </telrikCharts:BarSeries.ValueBinding>
+                                <telrikCharts:BarSeries.CategoryBinding>
+                                    <telrikCharts:PropertyNameDataPointBinding  PropertyName="Category"/>
+                                </telrikCharts:BarSeries.CategoryBinding>
+                            </telrikCharts:BarSeries>
+                        </telrikCharts:RadCartesianChart.Series>
+                    </telrikCharts:RadCartesianChart>
+                </Grid>
+            </ScrollView>
+        </ContentPage>
+
+        <ContentPage Title="For Review"/>
+
+        <ContentPage Title="Review Notes"/>
+
+        <ContentPage Title="TO-Dos"/>
+
+    </TabbedPage.Children>
+
+</TabbedPage>

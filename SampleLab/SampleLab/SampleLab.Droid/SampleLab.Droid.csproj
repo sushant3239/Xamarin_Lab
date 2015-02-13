@@ -34,6 +34,16 @@
     <WarningLevel>4</WarningLevel>
     <AndroidUseSharedRuntime>True</AndroidUseSharedRuntime>
     <AndroidLinkMode>None</AndroidLinkMode>
+    <AndroidLinkSkip />
+    <EmbedAssembliesIntoApk>False</EmbedAssembliesIntoApk>
+    <BundleAssemblies>False</BundleAssemblies>
+    <AndroidCreatePackagePerAbi>False</AndroidCreatePackagePerAbi>
+    <AndroidSupportedAbis>armeabi,armeabi-v7a,x86</AndroidSupportedAbis>
+    <AndroidStoreUncompressedFileExtensions />
+    <MandroidI18n />
+    <JavaMaximumHeapSize />
+    <JavaOptions />
+    <MonoDroidExtraArgs />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -115,6 +125,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Constants\DroidConstants.cs" />
+    <Compile Include="CustomControls\BarChart.cs" />
+    <Compile Include="CustomControls\MyBarChart.cs" />
     <Compile Include="Device\CameraActivity.cs" />
     <Compile Include="Device\DroidAudioRecorder.cs" />
     <Compile Include="Device\DroidCamera.cs" />
@@ -126,7 +138,7 @@
     <Compile Include="PhoneService\AlertManager.cs" />
     <Compile Include="PhoneService\DroidMediaPlayer.cs" />
     <Compile Include="PhoneService\DroidPhoneService.cs" />
-    <Compile Include="Renderer\EYLabelRenderer.cs" />
+    <Compile Include="Renderer\DoughnutRenderer.cs" />
     <Compile Include="Renderer\MultiSelectListRenderer.cs" />
     <Compile Include="Renderer\MySeekBarRenderer.cs" />
     <Compile Include="Renderer\NativeToFormsRenderer.cs" />

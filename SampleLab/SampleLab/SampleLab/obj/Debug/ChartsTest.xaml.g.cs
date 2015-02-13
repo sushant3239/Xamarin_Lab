@@ -14,16 +14,10 @@ namespace SampleLab.Pages {
     using Xamarin.Forms.Xaml;
     
     
-    public partial class ChartsTest : ContentPage {
-        
-        private global::Telerik.XamarinForms.Chart.BarSeries series1;
-        
-        private global::Telerik.XamarinForms.Chart.BarSeries series2;
+    public partial class ChartsTest : TabbedPage {
         
         private void InitializeComponent() {
             this.LoadFromXaml(typeof(ChartsTest));
-            series1 = this.FindByName<global::Telerik.XamarinForms.Chart.BarSeries>("series1");
-            series2 = this.FindByName<global::Telerik.XamarinForms.Chart.BarSeries>("series2");
         }
     }
 }

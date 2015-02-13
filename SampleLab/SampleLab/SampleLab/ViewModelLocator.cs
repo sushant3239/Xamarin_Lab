@@ -80,5 +80,18 @@ namespace SampleLab
             }            
         }
 
+        private ChartViewModel _chartViewModel;
+        public ChartViewModel ChartViewModel
+        {
+            get
+            {
+                if (_chartViewModel == null)
+                {
+                   _chartViewModel = _typeResolver.Resolve<ChartViewModel>();
+                }
+                return _chartViewModel;
+            }
+        }
+
     }
 }

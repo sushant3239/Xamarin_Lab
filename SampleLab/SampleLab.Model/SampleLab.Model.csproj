@@ -36,6 +36,7 @@
   <ItemGroup>
     <Compile Include="AssuranceBaseModel.cs" />
     <Compile Include="BaseModel.cs" />
+    <Compile Include="CategoricalData.cs" />
     <Compile Include="DummyData.cs" />
     <Compile Include="Engagement.cs" />
     <Compile Include="EngagementTask.cs" />

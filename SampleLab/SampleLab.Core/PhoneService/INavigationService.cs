@@ -15,5 +15,6 @@ namespace SampleLab.PhoneService
         Task NavigateToPopupPage();
         Task GoBackAsync();
         Task NavigateToFilterByEngagementsPage(object navigationParmas);
+        Task NavigateToChartPage();
     }
 }

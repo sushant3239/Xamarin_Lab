@@ -4,11 +4,12 @@
              x:Class="SampleLab.Pages.MainView"
              xmlns:common="clr-namespace:SampleLab;assembly=SampleLab"
              BindingContext="{x:Static common:AppResources.ViewModelLocator}">
-  <StackLayout BindingContext="{Binding MainViewModel}">
-    <Button Text="Capture Image" x:Name="btnCapture" Command="{Binding ButtonCapturePressedCommand}"/>
-    <Button Text="Record Audio" Command="{Binding ButtonRecordPressedCommand}"/>
-    <!--<Image Source="{Binding CapturedImage}"/>-->
-    <Button Text="NavigateToNative" Command="{Binding FormsToNativePage}"/>
-    <Button Text="PopupPage" Command="{Binding NavigateToPopupPage}"/>    
-  </StackLayout>
+    <StackLayout BindingContext="{Binding MainViewModel}">
+        <Button Text="Capture Image" x:Name="btnCapture" Command="{Binding ButtonCapturePressedCommand}"/>
+        <Button Text="Record Audio" Command="{Binding ButtonRecordPressedCommand}"/>
+        <!--<Image Source="{Binding CapturedImage}"/>-->
+        <Button Text="NavigateToNative" Command="{Binding FormsToNativePage}"/>
+        <Button Text="PopupPage" Command="{Binding NavigateToPopupPage}"/>
+        <Button Text="ChartPage" Command="{Binding NavigateToChartPage}"/>
+    </StackLayout>
 </ContentPage>

@@ -36,6 +36,7 @@
   <ItemGroup>
     <Compile Include="AudioPlayerViewModel.cs" />
     <Compile Include="AudioRecorderViewModel.cs" />
+    <Compile Include="ChartViewModel.cs" />
     <Compile Include="FilterByEngagementsViewModel.cs" />
     <Compile Include="FliterViewModel.cs" />
     <Compile Include="MainViewModel.cs" />

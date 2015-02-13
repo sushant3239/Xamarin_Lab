@@ -17,10 +17,24 @@ namespace SampleLab.ViewModel
         private IAlertManager _alertManager;
         private ICameraLauncher _cameraLauncher;
 
+        public MainViewModel(IPhoneService phoneService, IDevice device)
+        {
+            _cameraLauncher = device.CameraLauncher;
+            _navigationService = phoneService.NavigationService;
+            _alertManager = phoneService.AlertManager;
+
+            ButtonCapturePressedCommand = new Command(ButtonPressed);
+            ButtonRecordPressedCommand = new Command(NavigateToAudioRecorder);
+            FormsToNativePage = new Command(NavigateToNative);
+            NavigateToPopupPage = new Command(NavigateToPopup);
+            NavigateToChartPage = new Command(NavigateToChart);
+        }         
+
         public ICommand ButtonCapturePressedCommand { get; private set; }
         public ICommand ButtonRecordPressedCommand { get; private set; }
         public ICommand FormsToNativePage { get; set; }
         public ICommand NavigateToPopupPage { get; private set; }
+        public ICommand NavigateToChartPage { get; private set; }
 
         public ImageSource CapturedImage
         {
@@ -37,19 +51,7 @@ namespace SampleLab.ViewModel
                 _capturedImage = value;
                 OnPropertyChanged();
             }
-        }
-
-        public MainViewModel(IPhoneService phoneService, IDevice device)
-        {
-            _cameraLauncher = device.CameraLauncher;
-            _navigationService = phoneService.NavigationService;
-            _alertManager = phoneService.AlertManager;
-
-            ButtonCapturePressedCommand = new Command(ButtonPressed);
-            ButtonRecordPressedCommand = new Command(NavigateToAudioRecorder);
-            FormsToNativePage = new Command(NavigateToNative);
-            NavigateToPopupPage = new Command(NavigateToPopup);
-        }        
+        }       
 
         private async void ButtonPressed()
         {
@@ -72,5 +74,10 @@ namespace SampleLab.ViewModel
         {
             _navigationService.NavigateToPopupPage();
         }
+
+        private void NavigateToChart()
+        {
+            _navigationService.NavigateToChartPage();
+        }       
     }
 }

@@ -64,6 +64,11 @@ namespace SampleLab.PhoneService
         {
             NavigationParameters = navigationParmas;
             return Navigation.PushAsync(new FilterByEngagements());
-        }      
+        }
+
+        public Task NavigateToChartPage()
+        {
+            return Navigation.PushAsync(new ChartsTest());
+        }
     }
 }
