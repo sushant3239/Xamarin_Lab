@@ -14,17 +14,31 @@ namespace SampleLab.Droid.CustomControls
         private readonly float _scaleFactor;
         private List<int> _itemsSource;
         private Paint _paint;
+        private Dictionary<string, List<int>> _seriesItems;
 
         private readonly float _padding;
+        private readonly float _seriesPadding;
 
         public BarChartSeries(Context context)
             : base(context)
         {
             var metrics = Resources.DisplayMetrics;
             _scaleFactor = metrics.Density;
-            _itemsSource = new List<int> { 70, 60, 30, 40, 52, 29,55,66,77,33,44,6 };
+            _itemsSource = new List<int> { 70, 60, 30, 40, 52, 29, 55, 66, 77, 33, 44, 6 };
+
+            _seriesItems = new Dictionary<string, List<int>>
+            {
+                {"Cat1", new List<int> { 70, 50,30,55 } },
+
+                {"Cat3", new List<int> { 70, 50,30,55 } },
+
+                {"Cat2", new List<int> { 70, 50,30,55 } },
+
+            };
 
             _padding = 5 * _scaleFactor;
+            _seriesPadding = 12 * _scaleFactor;
+
             _paint = new Paint();
             _paint.Color = Color.Red;
             Invalidate();
@@ -34,22 +48,27 @@ namespace SampleLab.Droid.CustomControls
         {
             base.OnDraw(canvas);
             base.OnDraw(canvas);
-            DrawBars(canvas, _itemsSource);
+            float lastBarRight = 0;
+            float left = 0;
+            var widthPerBar = GetWidthPerBar(_seriesItems.SelectMany(x => x.Value).Count(), _seriesItems.Count);
+            foreach (var item in _seriesItems)
+            {
+                if (lastBarRight != 0)
+                {
+                    left = lastBarRight + _seriesPadding;
+                }
+                DrawBars(canvas, item.Value, widthPerBar, out lastBarRight, left);
+            }
         }
 
-        private void DrawBars(Canvas canvas, List<int> values)
+        private void DrawBars(Canvas canvas, List<int> values, float widthPerBar, out float lastBarRight, float left = 0)
         {
             var max = values.Max();
 
-            var widthExcludingPadding = values.Count * _padding;
-            var widthPerBar = (Width - widthExcludingPadding) / values.Count;
-
+            //var widthExcludingPadding = values.Count * _padding;
+            //var widthPerBar = (Width - widthExcludingPadding) / values.Count;
             var maxHeight = Height;
-
-            float left = _padding;
             float top = 0;
-            float right = widthPerBar;
-            float bottom = _padding;
 
             foreach (var item in values)
             {
@@ -65,8 +84,16 @@ namespace SampleLab.Droid.CustomControls
                 canvas.DrawRect(left, (maxHeight - top), (left + widthPerBar), (maxHeight), new Paint { Color = Color.Red });
                 left = (left + widthPerBar + _padding);
             }
-              //canvas.DrawRect(200,10, 200 + widthPerBar, 300, new Paint { Color = Color.Red });
 
+            lastBarRight = left;
+        }
+
+        private float GetWidthPerBar(int numberOfBars, int numberOfSeries)
+        {
+            float result = 0.0f;
+            float excludePadding = (_padding * numberOfBars) + (_seriesPadding * numberOfSeries);
+            result = (Width - excludePadding) / numberOfBars;
+            return result;
         }
     }
 }
