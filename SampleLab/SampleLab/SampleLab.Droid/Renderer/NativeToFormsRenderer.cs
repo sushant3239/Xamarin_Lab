@@ -22,7 +22,9 @@ namespace SampleLab.Droid.Renderer
 
             var nativeLayoutPage = activity.LayoutInflater.Inflate(Resource.Layout.NativeAndroidLayout, this, false);
             //_nativeView = nativeLayoutPage;
-            _nativeView = new SampleLab.Droid.CustomControls.BarChart(Context) { Earnings = 100, Cost = 30 };
+            _nativeView = new SampleLab.Droid.CustomControls.BarChartSeries(Context);
+            //_nativeView = new SampleLab.Droid.CustomControls.BarChart(Context) { Earnings = 100, Cost = 30 };
+
             AddView(_nativeView);
            // var button = FindViewById<Android.Widget.Button>(SampleLab.Droid.Resource.Id.NavigateToForms);
             //button.Click += button_Click;

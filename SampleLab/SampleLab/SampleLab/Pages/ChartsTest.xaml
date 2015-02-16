@@ -4,6 +4,7 @@
             x:Class="SampleLab.Pages.ChartsTest"
             xmlns:common="clr-namespace:SampleLab;assembly=SampleLab"
             xmlns:controls="clr-namespace:SampleLab.CustomControls;assembly=SampleLab"
+            xmlns:charting="clr-namespace:SampleLab.CustomControls.Charting;assembly=SampleLab"
             xmlns:telrikCharts="clr-namespace:Telerik.XamarinForms.Chart;assembly=Telerik.XamarinForms.Chart">
 
     <TabbedPage.Resources>
@@ -72,7 +73,8 @@
 
                     </Grid>
 
-                    <telrikCharts:RadCartesianChart Grid.Row="4" VerticalOptions="End">
+                  <charting:XFBarChart Grid.Row="4" VerticalOptions="End"/>
+                    <!--<telrikCharts:RadCartesianChart Grid.Row="4" VerticalOptions="End">
 
                         <telrikCharts:RadCartesianChart.VerticalAxis>
                             <telrikCharts:NumericalAxis LabelFitMode="MultiLine"
@@ -122,7 +124,7 @@
                                 </telrikCharts:BarSeries.CategoryBinding>
                             </telrikCharts:BarSeries>
                         </telrikCharts:RadCartesianChart.Series>
-                    </telrikCharts:RadCartesianChart>
+                    </telrikCharts:RadCartesianChart>-->
                 </Grid>
             </ScrollView>
         </ContentPage>

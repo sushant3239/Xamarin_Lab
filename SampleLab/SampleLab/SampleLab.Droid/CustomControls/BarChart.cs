@@ -29,7 +29,7 @@ namespace SampleLab.Droid.CustomControls
 
             InitBarChart();
         }
-
+        
         public double Cost
         {
             get { return _cost; }
@@ -56,6 +56,7 @@ namespace SampleLab.Droid.CustomControls
 
             int fullWidth = Width;
             int fullHeight = Height;
+
             int padding = (int)(10 * _scaleFactor);
             int maxBarHeight = fullHeight - (5 * padding);
             float bar1Height;

@@ -39,6 +39,7 @@
     </Compile>
     <Compile Include="AppResources.cs" />
     <Compile Include="Converters\NewLineCoverter.cs" />
+    <Compile Include="CustomControls\Charting\XFBarChart.cs" />
     <Compile Include="CustomControls\DoughnutView.cs" />
     <Compile Include="CustomControls\EventArgs.cs" />
     <Compile Include="CustomControls\FilterPopup.xaml.cs">

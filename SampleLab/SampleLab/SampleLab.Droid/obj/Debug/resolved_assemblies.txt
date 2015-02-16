@@ -1,25 +1,25 @@
-F:\Data\Xamarin\Forms\Git_Lab\Xamarin_Lab\SampleLab\SampleLab\SampleLab.Droid\bin\Debug\SampleLab.Droid.dll
-F:\Data\Xamarin\Forms\Git_Lab\Xamarin_Lab\SampleLab\packages\Xamarin.Forms.1.3.2.6316\lib\MonoAndroid10\FormsViewGroup.dll
-F:\Data\Xamarin\Forms\Git_Lab\Xamarin_Lab\SampleLab\packages\CommonServiceLocator.1.2\lib\portable-windows8+net40+sl5+windowsphone8\Microsoft.Practices.ServiceLocation.dll
-F:\Data\Xamarin\Forms\Git_Lab\Xamarin_Lab\SampleLab\packages\Unity.3.5.1404.0\lib\portable-net45+wp80+win8+MonoAndroid10+MonoTouch10\Microsoft.Practices.Unity.dll
-F:\Data\Xamarin\Forms\Git_Lab\Xamarin_Lab\SampleLab\SampleLab\Bineries\Ninject.dll
-F:\Data\Xamarin\Forms\Git_Lab\Xamarin_Lab\SampleLab\SampleLab.Core\bin\Debug\SampleLab.Core.dll
-F:\Data\Xamarin\Forms\Git_Lab\Xamarin_Lab\SampleLab\SampleLab\SampleLab\bin\Debug\SampleLab.dll
-F:\Data\Xamarin\Forms\Git_Lab\Xamarin_Lab\SampleLab\SampleLab.ViewModel\bin\Debug\SampleLab.ViewModel.dll
-F:\Data\Xamarin\Forms\Git_Lab\Xamarin_Lab\SampleLab\SampleLab\SampleLab.Droid\bin\Debug\Telerik.Xamarin.Android.Chart.dll
-F:\Data\Xamarin\Forms\Git_Lab\Xamarin_Lab\SampleLab\SampleLab\SampleLab.Droid\bin\Debug\Telerik.Xamarin.Android.Common.dll
-F:\Data\Xamarin\Forms\Git_Lab\Xamarin_Lab\SampleLab\SampleLab\SampleLab.Droid\bin\Debug\Telerik.Xamarin.Android.Input.dll
-F:\Data\Xamarin\Forms\Git_Lab\Xamarin_Lab\SampleLab\SampleLab\SampleLab.Droid\bin\Debug\Telerik.Xamarin.Android.Primitives.dll
-F:\Data\Xamarin\Forms\Git_Lab\Xamarin_Lab\SampleLab\SampleLab\SampleLab.Droid\bin\Debug\Telerik.XamarinForms.Chart.dll
-F:\Data\Xamarin\Forms\Git_Lab\Xamarin_Lab\SampleLab\SampleLab\SampleLab.Droid\bin\Debug\Telerik.XamarinForms.ChartRenderer.Android.dll
-F:\Data\Xamarin\Forms\Git_Lab\Xamarin_Lab\SampleLab\SampleLab\SampleLab.Droid\bin\Debug\Telerik.XamarinForms.Common.dll
-F:\Data\Xamarin\Forms\Git_Lab\Xamarin_Lab\SampleLab\SampleLab\SampleLab.Droid\bin\Debug\Telerik.XamarinForms.Input.dll
-F:\Data\Xamarin\Forms\Git_Lab\Xamarin_Lab\SampleLab\SampleLab\SampleLab.Droid\bin\Debug\Telerik.XamarinForms.InputRenderer.Android.dll
-F:\Data\Xamarin\Forms\Git_Lab\Xamarin_Lab\SampleLab\packages\Xamarin.Android.Support.v4.21.0.3.0\lib\MonoAndroid10\Xamarin.Android.Support.v4.dll
-F:\Data\Xamarin\Forms\Git_Lab\Xamarin_Lab\SampleLab\packages\Xamarin.Forms.Behaviors.1.3.1\lib\Xamarin.Behaviors.dll
-F:\Data\Xamarin\Forms\Git_Lab\Xamarin_Lab\SampleLab\packages\Xamarin.Forms.1.3.2.6316\lib\MonoAndroid10\Xamarin.Forms.Core.dll
-F:\Data\Xamarin\Forms\Git_Lab\Xamarin_Lab\SampleLab\packages\Xamarin.Forms.1.3.2.6316\lib\MonoAndroid10\Xamarin.Forms.Platform.Android.dll
-F:\Data\Xamarin\Forms\Git_Lab\Xamarin_Lab\SampleLab\packages\Xamarin.Forms.1.3.2.6316\lib\MonoAndroid10\Xamarin.Forms.Xaml.dll
+C:\Users\patilsu5\Desktop\Sushant\Xamarin\Forms\Xamarin_Lab-master\SampleLab\SampleLab\SampleLab.Droid\bin\Debug\SampleLab.Droid.dll
+C:\Users\patilsu5\Desktop\Sushant\Xamarin\Forms\Xamarin_Lab-master\SampleLab\packages\Xamarin.Forms.1.3.2.6316\lib\MonoAndroid10\FormsViewGroup.dll
+C:\Users\patilsu5\Desktop\Sushant\Xamarin\Forms\Xamarin_Lab-master\SampleLab\packages\CommonServiceLocator.1.2\lib\portable-windows8+net40+sl5+windowsphone8\Microsoft.Practices.ServiceLocation.dll
+C:\Users\patilsu5\Desktop\Sushant\Xamarin\Forms\Xamarin_Lab-master\SampleLab\packages\Unity.3.5.1404.0\lib\portable-net45+wp80+win8+MonoAndroid10+MonoTouch10\Microsoft.Practices.Unity.dll
+C:\Users\patilsu5\Desktop\Sushant\Xamarin\Forms\Xamarin_Lab-master\SampleLab\SampleLab\Bineries\Ninject.dll
+C:\Users\patilsu5\Desktop\Sushant\Xamarin\Forms\Xamarin_Lab-master\SampleLab\SampleLab.Core\bin\Debug\SampleLab.Core.dll
+C:\Users\patilsu5\Desktop\Sushant\Xamarin\Forms\Xamarin_Lab-master\SampleLab\SampleLab\SampleLab\bin\Debug\SampleLab.dll
+C:\Users\patilsu5\Desktop\Sushant\Xamarin\Forms\Xamarin_Lab-master\SampleLab\SampleLab.ViewModel\bin\Debug\SampleLab.ViewModel.dll
+C:\Users\patilsu5\Desktop\Sushant\Xamarin\Forms\Xamarin_Lab-master\SampleLab\SampleLab\SampleLab.Droid\bin\Debug\Telerik.Xamarin.Android.Chart.dll
+C:\Users\patilsu5\Desktop\Sushant\Xamarin\Forms\Xamarin_Lab-master\SampleLab\SampleLab\SampleLab.Droid\bin\Debug\Telerik.Xamarin.Android.Common.dll
+C:\Users\patilsu5\Desktop\Sushant\Xamarin\Forms\Xamarin_Lab-master\SampleLab\SampleLab\SampleLab.Droid\bin\Debug\Telerik.Xamarin.Android.Input.dll
+C:\Users\patilsu5\Desktop\Sushant\Xamarin\Forms\Xamarin_Lab-master\SampleLab\SampleLab\SampleLab.Droid\bin\Debug\Telerik.Xamarin.Android.Primitives.dll
+C:\Users\patilsu5\Desktop\Sushant\Xamarin\Forms\Xamarin_Lab-master\SampleLab\SampleLab\SampleLab.Droid\bin\Debug\Telerik.XamarinForms.Chart.dll
+C:\Users\patilsu5\Desktop\Sushant\Xamarin\Forms\Xamarin_Lab-master\SampleLab\SampleLab\SampleLab.Droid\bin\Debug\Telerik.XamarinForms.ChartRenderer.Android.dll
+C:\Users\patilsu5\Desktop\Sushant\Xamarin\Forms\Xamarin_Lab-master\SampleLab\SampleLab\SampleLab.Droid\bin\Debug\Telerik.XamarinForms.Common.dll
+C:\Users\patilsu5\Desktop\Sushant\Xamarin\Forms\Xamarin_Lab-master\SampleLab\SampleLab\SampleLab.Droid\bin\Debug\Telerik.XamarinForms.Input.dll
+C:\Users\patilsu5\Desktop\Sushant\Xamarin\Forms\Xamarin_Lab-master\SampleLab\SampleLab\SampleLab.Droid\bin\Debug\Telerik.XamarinForms.InputRenderer.Android.dll
+C:\Users\patilsu5\Desktop\Sushant\Xamarin\Forms\Xamarin_Lab-master\SampleLab\packages\Xamarin.Android.Support.v4.21.0.3.0\lib\MonoAndroid10\Xamarin.Android.Support.v4.dll
+C:\Users\patilsu5\Desktop\Sushant\Xamarin\Forms\Xamarin_Lab-master\SampleLab\packages\Xamarin.Forms.Behaviors.1.3.1\lib\Xamarin.Behaviors.dll
+C:\Users\patilsu5\Desktop\Sushant\Xamarin\Forms\Xamarin_Lab-master\SampleLab\packages\Xamarin.Forms.1.3.2.6316\lib\MonoAndroid10\Xamarin.Forms.Core.dll
+C:\Users\patilsu5\Desktop\Sushant\Xamarin\Forms\Xamarin_Lab-master\SampleLab\packages\Xamarin.Forms.1.3.2.6316\lib\MonoAndroid10\Xamarin.Forms.Platform.Android.dll
+C:\Users\patilsu5\Desktop\Sushant\Xamarin\Forms\Xamarin_Lab-master\SampleLab\packages\Xamarin.Forms.1.3.2.6316\lib\MonoAndroid10\Xamarin.Forms.Xaml.dll
 C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\Facades\System.Collections.Concurrent.dll
 C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\Facades\System.Collections.dll
 C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\Facades\System.ComponentModel.Annotations.dll
@@ -69,4 +69,4 @@ C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0
 C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\Facades\System.Xml.ReaderWriter.dll
 C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\Facades\System.Xml.XDocument.dll
 C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\Facades\System.Xml.XmlSerializer.dll
-F:\Data\Xamarin\Forms\Git_Lab\Xamarin_Lab\SampleLab\SampleLab\SampleLab.Droid\bin\Debug\SampleLab.Model.dll
+C:\Users\patilsu5\Desktop\Sushant\Xamarin\Forms\Xamarin_Lab-master\SampleLab\SampleLab\SampleLab.Droid\bin\Debug\SampleLab.Model.dll

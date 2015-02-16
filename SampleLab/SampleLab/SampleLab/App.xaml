@@ -2,16 +2,14 @@
 <Application xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     x:Class="SampleLab.App"
-    xmlns:converters="clr-namespace:SampleLab.Converters;assembly=SampleLab"
-    xmlns:common="clr-namespace:SampleLab;assembly=SampleLab">
+    xmlns:converters="clr-namespace:SampleLab.Converters;assembly=SampleLab">
 
-  <Application.Resources>
-    <ResourceDictionary>
-      <common:ViewModelLocator x:Key="locator"/>
-      <Style StyleId ="TestStyle" TargetType="Label">
-        <Setter Property="FontSize" Value="25"/>
-      </Style>
-    </ResourceDictionary>
-  </Application.Resources>
+    <Application.Resources>
+        <ResourceDictionary>
+            <Style StyleId ="TestStyle" TargetType="Label">
+                <Setter Property="FontSize" Value="25"/>
+            </Style>
+        </ResourceDictionary>
+    </Application.Resources>
 
 </Application>

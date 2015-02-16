@@ -39,3 +39,4 @@ C:\Users\patilsu5\Desktop\Sushant\Xamarin\Forms\Xamarin_Lab-master\SampleLab\Sam
 C:\Users\patilsu5\Desktop\Sushant\Xamarin\Forms\Xamarin_Lab-master\SampleLab\SampleLab.Model\bin\Debug\Xamarin.Forms.Xaml.xml
 C:\Users\patilsu5\Desktop\Sushant\Xamarin\Forms\Xamarin_Lab-master\SampleLab\SampleLab.Model\obj\Debug\SampleLab.Model.dll
 C:\Users\patilsu5\Desktop\Sushant\Xamarin\Forms\Xamarin_Lab-master\SampleLab\SampleLab.Model\obj\Debug\SampleLab.Model.pdb
+C:\Users\patilsu5\Desktop\Sushant\Xamarin\Forms\Xamarin_Lab-master\SampleLab\SampleLab.Model\obj\Debug\SampleLab.Model.csprojResolveAssemblyReference.cache

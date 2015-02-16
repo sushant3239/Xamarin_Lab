@@ -126,7 +126,7 @@
   <ItemGroup>
     <Compile Include="Constants\DroidConstants.cs" />
     <Compile Include="CustomControls\BarChart.cs" />
-    <Compile Include="CustomControls\MyBarChart.cs" />
+    <Compile Include="CustomControls\BarChartSeries.cs" />
     <Compile Include="Device\CameraActivity.cs" />
     <Compile Include="Device\DroidAudioRecorder.cs" />
     <Compile Include="Device\DroidCamera.cs" />
@@ -138,6 +138,7 @@
     <Compile Include="PhoneService\AlertManager.cs" />
     <Compile Include="PhoneService\DroidMediaPlayer.cs" />
     <Compile Include="PhoneService\DroidPhoneService.cs" />
+    <Compile Include="Renderer\BarChartRenderer.cs" />
     <Compile Include="Renderer\DoughnutRenderer.cs" />
     <Compile Include="Renderer\MultiSelectListRenderer.cs" />
     <Compile Include="Renderer\MySeekBarRenderer.cs" />
