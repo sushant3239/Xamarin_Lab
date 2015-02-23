@@ -63,7 +63,6 @@ F:\Data\Xamarin\Forms\Git_Lab\Xamarin_Lab\SampleLab\SampleLab\SampleLab\bin\Debu
 F:\Data\Xamarin\Forms\Git_Lab\Xamarin_Lab\SampleLab\SampleLab\SampleLab\bin\Debug\SampleLab.ViewModel.pdb
 F:\Data\Xamarin\Forms\Git_Lab\Xamarin_Lab\SampleLab\SampleLab\SampleLab\bin\Debug\Xamarin.Forms.Core.xml
 F:\Data\Xamarin\Forms\Git_Lab\Xamarin_Lab\SampleLab\SampleLab\SampleLab\bin\Debug\Xamarin.Forms.Xaml.xml
-F:\Data\Xamarin\Forms\Git_Lab\Xamarin_Lab\SampleLab\SampleLab\SampleLab\obj\Debug\SampleLab.csprojResolveAssemblyReference.cache
 F:\Data\Xamarin\Forms\Git_Lab\Xamarin_Lab\SampleLab\SampleLab\SampleLab\obj\Debug\AudiRecorderView.xaml.g.cs
 F:\Data\Xamarin\Forms\Git_Lab\Xamarin_Lab\SampleLab\SampleLab\SampleLab\obj\Debug\MainView.xaml.g.cs
 F:\Data\Xamarin\Forms\Git_Lab\Xamarin_Lab\SampleLab\SampleLab\SampleLab\obj\Debug\NativeToForms.xaml.g.cs

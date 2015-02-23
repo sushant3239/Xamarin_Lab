@@ -93,5 +93,18 @@ namespace SampleLab
             }
         }
 
+        private RawAudioRecordViewModel _rawAudioRecordViewModel;
+        public RawAudioRecordViewModel RawAudioRecordViewModel
+        {
+            get
+            {
+                if(_rawAudioRecordViewModel == null)
+                {
+                    _rawAudioRecordViewModel = _typeResolver.Resolve<RawAudioRecordViewModel>();
+                }
+                return _rawAudioRecordViewModel;
+            }
+        }
+
     }
 }

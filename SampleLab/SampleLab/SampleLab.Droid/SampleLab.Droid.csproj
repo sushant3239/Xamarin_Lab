@@ -132,6 +132,7 @@
     <Compile Include="Device\DroidCamera.cs" />
     <Compile Include="Device\DroidDevice.cs" />
     <Compile Include="Device\DroidInAppCamera.cs" />
+    <Compile Include="Device\RawAudioRecorder.cs" />
     <Compile Include="Infrastructure\NinjectTypeResolver.cs" />
     <Compile Include="Infrastructure\TinyIoCTypeResolver.cs" />
     <Compile Include="MainActivity.cs" />

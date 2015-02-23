@@ -16,20 +16,8 @@ namespace SampleLab.Pages {
     
     public partial class AudiRecorderView : ContentPage {
         
-        private StackLayout AudioRecorderRoot;
-        
-        private Button ButtonStart;
-        
-        private Button ButtonStop;
-        
-        private global::SampleLab.CustomControls.MySeekBar PlayerSlider;
-        
         private void InitializeComponent() {
             this.LoadFromXaml(typeof(AudiRecorderView));
-            AudioRecorderRoot = this.FindByName<StackLayout>("AudioRecorderRoot");
-            ButtonStart = this.FindByName<Button>("ButtonStart");
-            ButtonStop = this.FindByName<Button>("ButtonStop");
-            PlayerSlider = this.FindByName<global::SampleLab.CustomControls.MySeekBar>("PlayerSlider");
         }
     }
 }

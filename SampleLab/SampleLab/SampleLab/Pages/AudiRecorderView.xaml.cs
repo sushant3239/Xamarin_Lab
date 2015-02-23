@@ -14,19 +14,19 @@ namespace SampleLab.Pages
         public AudiRecorderView()
         {
             InitializeComponent();
-            PlayerSlider.ProgressChanged += PlayerSliderProgressChanged;            
+           // PlayerSlider.ProgressChanged += PlayerSliderProgressChanged;            
         }
 
-        private void PlayerSliderProgressChanged(object sender, SeekBarValueChangedEventArgs e)
-        {
-            if (e.FromUser)
-            {
-                var viewModel = AudioRecorderRoot.BindingContext as AudioRecorderViewModel;
-                if (viewModel != null)
-                {
-                    viewModel.SeekToPostionCommand.Execute(e.NewValue);
-                }
-            }
-        }
+        //private void PlayerSliderProgressChanged(object sender, SeekBarValueChangedEventArgs e)
+        //{
+        //    if (e.FromUser)
+        //    {
+        //        var viewModel = AudioRecorderRoot.BindingContext as AudioRecorderViewModel;
+        //        if (viewModel != null)
+        //        {
+        //            viewModel.SeekToPostionCommand.Execute(e.NewValue);
+        //        }
+        //    }
+        //}
     }
 }

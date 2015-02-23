@@ -6,7 +6,7 @@
              BindingContext="{x:Static common:AppResources.ViewModelLocator}"
              xmlns:controls="clr-namespace:SampleLab.CustomControls;assembly=SampleLab">
 
-  <StackLayout BindingContext="{Binding AudioRecorderViewModel}" x:Name="AudioRecorderRoot">
+  <!--<StackLayout BindingContext="{Binding AudioRecorderViewModel}" x:Name="AudioRecorderRoot">
     <Button x:Name="ButtonStart" Text="Start Recording" Command="{Binding StartRecordingCommand}"/>
     <Button x:Name="ButtonStop" Text="Stop Recording" Command="{Binding StopRecordingCommand}"/>
     <Button Text="Play" Command="{Binding PlayAudioCommand}"/>
@@ -15,6 +15,11 @@
                MaxValue="{Binding MaxSeekerValue}"
                x:Name="PlayerSlider">      
     </controls:MySeekBar>
+  </StackLayout>-->
+
+  <StackLayout BindingContext="{Binding RawAudioRecordViewModel}">
+    <Button Text="Start" Command="{Binding StartRecordCommand}"/>
+    <Button Text="Stop" Command="{Binding StopRecordCommand}"/>
   </StackLayout>
 
 </ContentPage>

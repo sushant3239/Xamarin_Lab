@@ -39,6 +39,7 @@
     <Compile Include="Device\ICamera.cs" />
     <Compile Include="Device\ICameraLauncher.cs" />
     <Compile Include="Device\IDevice.cs" />
+    <Compile Include="Device\IRawAudioRecorder.cs" />
     <Compile Include="Enum\MessageBoxButton .cs" />
     <Compile Include="Helper\ClassHelper.cs" />
     <Compile Include="Helper\EventArgs.cs" />
